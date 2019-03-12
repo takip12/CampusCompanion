@@ -14,7 +14,6 @@
 
                 $.getJSON('prof.json', function(arr){
                     $.each(arr.prof, function(i, f){
-                        $("#profDetails").empty();
                         var tblRow = "<tr>" + "<td>" + f.name + "</td>" + 
                                               "<td>" + f.dept + "</td>" +
                                               "<td>" + f.office + "</td>" +
