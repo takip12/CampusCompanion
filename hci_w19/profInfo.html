@@ -8,7 +8,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         
-        <!--
+        
         <script>
             $(function(){
                 var profs = [];
@@ -25,10 +25,10 @@
                 })
             });
         </script>
-    -->
+    
     
 
-    
+    <!--
     <script>
         $("#searchterm").keyup(function(e){
             var q = $("#searchterm").val();
@@ -45,6 +45,24 @@
             });
         });
     </script>
+-->
+
+<!--
+    <script>
+        $("#searchterm").keyup(function(e){
+            var q = $("#searchterm").val();
+            $.getJSON('prof.json', function(data){
+                $("#results").empty();
+                $("#results").append("Results " + q );
+
+                $.each(data.query.search, function(i, item){
+                    $("#results").append(item.name);
+                });
+            });
+        });
+    </script>
+-->
+
 
 
     </head>
