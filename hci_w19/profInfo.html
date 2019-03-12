@@ -7,7 +7,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script>
+        
+        <!--<script>
             $(function(){
                 var profs = [];
 
@@ -23,6 +24,7 @@
                 })
             });
         </script>
+    -->
     </head>
 
     <body>
@@ -50,6 +52,13 @@
         <br>
         <div class="container">
             <h3>Professor Info</h3>
+            <div align = "center">
+                <input type="text" name="search" id="search" placeholder="Search Employees" class="form-control" />
+            </div>
+
+            <ul class="list-group" id="result"></ul>
+
+            <!--
             <table id="profDetails" class="table table-hover">
                 <thead>
                     <tr>
@@ -62,124 +71,28 @@
                 </thead>
                 
                 <tbody>
-                    <!--
-                    <tr>
-                        <td>Abdullah, Mohd</td>
-                        <td>Computing</td>
-                        <td>HL410</td>
-                        <td>250-371-5961</td>
-                        <td>mohda@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Ahmed, Faheem</td>
-                        <td>Computing</td>
-                        <td>OM2841</td>
-                        <td>250-371-5696</td>
-                        <td>fahmed@tru.ca</td>
-                    </tr>
-                    <tr>
-                         <td>Babinchuk, Wayne</td>
-                        <td>Computing</td>
-                        <td>HL418</td>
-                        <td>250-828-5077</td>
-                        <td>babinchuk@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Dhanjal, Surinder</td>
-                        <td>Computing</td>
-                        <td>S170</td>
-                        <td>250-828-5153</td>
-                        <td>sdhanjal@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>El Miligi, Haytham</td>
-                        <td>Computing</td>
-                        <td>HL426</td>
-                        <td>250-828-5230</td>
-                        <td>helmiligi@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Jackson, Piper</td>
-                        <td>Computing</td>
-                        <td>HL408</td>
-                        <td>250-377-6098</td>
-                        <td>pjackson@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Jin, Lingling</td>
-                        <td>Computing</td>
-                        <td>OM2861</td>
-                        <td>250-371-5804</td>
-                        <td>ljin@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>King, Rick</td>
-                        <td>Computing</td>
-                        <td>HL422</td>
-                        <td>250-377-6089</td>
-                        <td>rking@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Kwiatkowska, Mila</td>
-                        <td>Computing</td>
-                        <td>HL406</td>
-                        <td>250-371-5592</td>
-                        <td>mkwiatkowska@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Lee, Mahnhoon</td>
-                        <td>Computing</td>
-                        <td>HL424</td>
-                        <td>250-377-6022</td>
-                        <td>mlee@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Lu, Ning</td>
-                        <td>Computing</td>
-                        <td>HL407</td>
-                        <td>250-828-5224</td>
-                        <td>nlu@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>O'Neil, Kevin</td>
-                        <td>Computing</td>
-                        <td>HL428</td>
-                        <td>250-371-5789</td>
-                        <td>koneil@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Park, Andrew</td>
-                        <td>Computing</td>
-                        <td>HL420</td>
-                        <td>250-828-5053</td>
-                        <td>apark@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Rahman, Musfiq</td>
-                        <td>Computing</td>
-                        <td>HL416</td>
-                        <td>250-371-5957</td>
-                        <td>mrahman@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Saeed, Rifat</td>
-                        <td>Computing</td>
-                        <td>OM2801</td>
-                        <td>250-377-6120</td>
-                        <td>rsaeed@tru.ca</td>
-                    </tr>
-                    <tr>
-                        <td>Sharma, Mridula</td>
-                        <td>Computing</td>
-                        <td>HL407</td>
-                        <td>250-852-7149</td>
-                        <td>msharma@tru.ca</td>
-                    </tr>
-                    -->
+                    
                 </tbody>
             
             </table>
+        -->
         </div>
 
     </body>
 </html>
+
+<script>
+    $(document).ready(function(){
+        $('#search').keyup(function(){
+            $('#result').html('');
+            var searchField = $('#search').val();
+            var expression = new RegExp(searchField, "i");
+            $.getJSON('prof.json', function(data){
+                $.each(data, function(key, value){
+                    if(value.name.search(expression) != -1 || value.location.search(expression) != -1){
+                        $('#result').append('<li class="list-group-item"> '+ value.name + ' | <span class = "text-muted">' + value.dept + '</span></li>')};
+                });
+            });
+        });
+    });
+</script>
