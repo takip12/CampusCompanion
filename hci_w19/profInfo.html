@@ -25,6 +25,20 @@
             });
         </script>
     -->
+
+    <script>
+        $("#searchterm").keyup(function(e){
+            var q = $("#searchterm").val();
+            $.getJSON('prof.json', function(data){
+                $("#results").empty();
+                $("#results").append("Results " + q );
+
+                $.each(data.query.search, function(i, item){
+                    $("#results").append(item.name);
+                });
+            });
+        });
+    </script>
     </head>
 
     <body>
@@ -53,7 +67,7 @@
         <div class="container">
             <h3>Professor Info</h3>
             <div align = "center">
-                <input type="text" name="search" id="search" placeholder="Search Employees" class="form-control" />
+                <input id="searchterm" type="text" /> <button id="search">search</button>
             </div>
 
             <ul class="list-group" id="result"></ul>
@@ -82,17 +96,5 @@
 </html>
 
 <script>
-    $(document).ready(function(){
-        $('#search').keyup(function(){
-            $('#result').html('');
-            var searchField = $('#search').val();
-            var expression = new RegExp(searchField, "i");
-            $.getJSON('prof.json', function(data){
-                $.each(data, function(key, value){
-                    if(value.name.search(expression) != -1 || value.location.search(expression) != -1){
-                        $('#result').append('<li class="list-group-item"> '+ value.name + ' | <span class = "text-muted">' + value.dept + '</span></li>')};
-                });
-            });
-        });
-    });
+    
 </script>
