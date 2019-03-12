@@ -8,6 +8,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         
+        <!--
         <script>
             $(function(){
                 var profs = [];
@@ -24,23 +25,27 @@
                 })
             });
         </script>
+    -->
     
 
-    <!--
+    
     <script>
         $("#searchterm").keyup(function(e){
             var q = $("#searchterm").val();
             $.getJSON('prof.json', function(data){
-                $("#results").empty();
-                $("#results").append("Results " + q );
-
-                $.each(data.query.search, function(i, item){
-                    $("#results").append(item.name);
-                });
+                $.each(data.prof, function(i, f){
+                        var tblRow = "<tr>" + "<td>" + f.name + "</td>" + 
+                                              "<td>" + f.dept + "</td>" +
+                                              "<td>" + f.office + "</td>" +
+                                              "<td>" + f.phone + "</td>" + 
+                                              "<td>" + f.email + "</td>" + "</tr>"
+                        $(tblRow).appendTo("#profDetails tbody")
+                    })
+                
             });
         });
     </script>
--->
+
 
     </head>
 
@@ -70,13 +75,13 @@
         <div class="container">
             <h3>Professor Info</h3>
             
-            <!--
+            
             <div align = "center">
                 <input id="searchterm" type="text" /> <button id="search">search</button>
             </div>
 
             <ul class="list-group" id="result"></ul>
-        -->
+        
 
             
             <table id="profDetails" class="table table-hover">
