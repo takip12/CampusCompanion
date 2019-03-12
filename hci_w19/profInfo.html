@@ -8,12 +8,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         
-        <!--<script>
+        <script>
             $(function(){
                 var profs = [];
 
                 $.getJSON('prof.json', function(arr){
                     $.each(arr.prof, function(i, f){
+                        $("#profDetails").empty();
                         var tblRow = "<tr>" + "<td>" + f.name + "</td>" + 
                                               "<td>" + f.dept + "</td>" +
                                               "<td>" + f.office + "</td>" +
@@ -24,8 +25,9 @@
                 })
             });
         </script>
-    -->
+    
 
+    <!--
     <script>
         $("#searchterm").keyup(function(e){
             var q = $("#searchterm").val();
@@ -39,6 +41,8 @@
             });
         });
     </script>
+-->
+
     </head>
 
     <body>
@@ -91,7 +95,6 @@
             </table>
         -->
         </div>
-        <div id=results></div>
     </body>
 </html>
 
