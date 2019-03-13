@@ -1,0 +1,88 @@
+{
+    "Software":[
+        {
+            "building": "Old Main",
+            "room": "1325",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Old Main",
+            "room": "1327",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Old Main",
+            "room": "1330",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Old Main",
+            "room": "1340",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Old Main",
+            "room": "1345",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Old Main",
+            "room": "1350",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Old Main",
+            "room": "1355",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Old Main",
+            "room": "1360",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Arts & Education",
+            "room": "151",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Arts & Education",
+            "room": "361",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "International Building",
+            "room": "2006",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Trades and Technology",
+            "room": "255",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "Science",
+            "room": "232",
+            "schedule": "Schedule",
+            "list": "Software"
+        },
+        {
+            "building": "House of Learning",
+            "room": "104",
+            "schedule": "Schedule",
+            "list": "Software"
+        }
+    ]
+}
