@@ -66,7 +66,7 @@
                 alert('after the url type ?room={classroom}')
                 document.getElementById('calendar').innerHTML = 'Refresh to show changes';
             } else
-                document.getElementById('calendar').innerHTML = 'It broked';
+                document.getElementById('calendar').innerHTML = 'It brokef';
         }, true);
 
         function OnceLoaded() {
@@ -96,7 +96,7 @@
         function dropdown() { // wait for page to load
             var cityDropdown = $("#rooms"),
                 countryDropdown = $('<select></select>'), // create a country dropdown
-                countries = ['OM', 'AHT', 'AE', 'WL', 'CTT', 'S', 'IB', 'HOL', 'OL']; // ordered list of countries
+                countries = ['om', 'AHT', 'AE', 'WL', 'CTT', 'S', 'IB', 'HOL', 'OL']; // ordered list of countries
 
             // parse the nested dropdown
             cityDropdown.children().each(function() {
