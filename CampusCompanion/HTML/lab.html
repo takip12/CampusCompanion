@@ -51,7 +51,7 @@
         if(typeof url1.searchParams != 'undefined'){
         	room = url1.searchParams.get("room");
         	
-        	room = room == null ? 'S261' : room;
+        	room = room == null ? 'om1360' : room;
         }
         var JSLink = "../LabData/" + room + ".json";
         class_ = '';
@@ -66,7 +66,7 @@
                 alert('after the url type ?room={classroom}')
                 document.getElementById('calendar').innerHTML = 'Refresh to show changes';
             } else
-                document.getElementById('calendar').innerHTML = 'It brokes';
+                document.getElementById('calendar').innerHTML = 'It broked';
         }, true);
 
         function OnceLoaded() {
