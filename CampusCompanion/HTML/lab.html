@@ -51,10 +51,10 @@
         if(typeof url1.searchParams != 'undefined'){
         	room = url1.searchParams.get("room");
         	
-        	room = room == null ? 'om1360' : room;
+        	room = room == null ? 'OM1360' : room;
         }
         var JSLink = "../LabData/" + room + ".json";
-        class_ = '';
+        schedule = '';
 
         var JSElement = document.createElement('script');
         JSElement.src = JSLink;
@@ -85,12 +85,12 @@
                 eventClick: function(calEvent, jsEvent, view) {
                     var start_date = moment(calEvent.start).format('DD/MM/YYYY HH:mm');
                     var end_date = moment(calEvent.end).format('DD/MM/YYYY HH:mm');
-                    alert('Title: ' + calEvent.title + '\nStart: ' + start_date + '\nEnd: ' + end_date);
+                    alert('Course: ' + calEvent.course + '\nStart: ' + start_date + '\nEnd: ' + end_date);
                 },
                 height: 'auto',
                 defaultView: 'month',
                 weekNumbers: true,
-                events: class_
+                events: schedule
             });
             dropdown();
         }
@@ -98,7 +98,7 @@
         function dropdown() { // wait for page to load
             var cityDropdown = $("#rooms"),
                 countryDropdown = $('<select></select>'), // create a country dropdown
-                countries = ['om', 'AHT', 'AE', 'WL', 'CTT', 'S', 'IB', 'HOL', 'OL']; // ordered list of countries
+                countries = ['OM', 'AHT', 'AE', 'WL', 'CTT', 'S', 'IB', 'HOL', 'OL']; // ordered list of countries
 
             // parse the nested dropdown
             cityDropdown.children().each(function() {
@@ -135,9 +135,9 @@
                 var room = cityDropdown.find(':selected')[0].innerHTML ;
                 console.log(room);
                 $.getScript("../LabData/" + room + ".json", function(){
-                	console.log(class_);
+                	console.log(schedule);
                 	$('#calendar').fullCalendar( 'removeEvents');
-					$('#calendar').fullCalendar( 'addEventSource', class_ );
+					$('#calendar').fullCalendar( 'addEventSource', schedule );
                 });
 
 			}
