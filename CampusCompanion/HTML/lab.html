@@ -44,7 +44,7 @@
 
 
 
-    <script type="text/javascript">
+    <script>
         var url1 = new URL(window.location.href)
         var room = "OM1360";
         console.log(typeof url1.searchParams);
@@ -53,7 +53,7 @@
         	
         	room = room == null ? 'OM1360' : room;
         }
-        var JSLink = "../LabData/" + room + ".json";
+        var JSLink = "http://takip.me/CampusCompanion/LabData/" + room + ".json";
         schedule = '';
 
         var JSElement = document.createElement('script');
@@ -72,7 +72,7 @@
         function OnceLoaded() {
 
             $('#calendar').fullCalendar({
-                themeSystem: 'jquery-ui',
+                //themeSystem: 'jquery-ui',
                 header: {
                     left: 'prev,next today',
                     center: 'title',
@@ -85,7 +85,7 @@
                 eventClick: function(calEvent, jsEvent, view) {
                     var start_date = moment(calEvent.start).format('DD/MM/YYYY HH:mm');
                     var end_date = moment(calEvent.end).format('DD/MM/YYYY HH:mm');
-                    alert('Course: ' + calEvent.course + '\nStart: ' + start_date + '\nEnd: ' + end_date);
+                    alert('Course: ' + calEvent.title + '\nStart: ' + start_date + '\nEnd: ' + end_date);
                 },
                 height: 'auto',
                 defaultView: 'month',
@@ -134,7 +134,7 @@
             function updateRoom() {
                 var room = cityDropdown.find(':selected')[0].innerHTML ;
                 console.log(room);
-                $.getScript("../LabData/" + room + ".json", function(){
+                $.getScript("http://takip.me/CampusCompanion/LabData/" + room + ".json", function(){
                 	console.log(schedule);
                 	$('#calendar').fullCalendar( 'removeEvents');
 					$('#calendar').fullCalendar( 'addEventSource', schedule );
