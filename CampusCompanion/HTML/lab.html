@@ -8,12 +8,18 @@
 	    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js'></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
         <!--
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         
         <link rel="stylesheet" href="../CSS/calendar.css">
@@ -51,11 +57,11 @@
     <script>
         var url1 = new URL(window.location.href)
         var room = "OM1360";
-        console.log(typeof url1.searchParams);
+        //console.log(typeof url1.searchParams);
         if(typeof url1.searchParams != 'undefined'){
         	room = url1.searchParams.get("room");
         	
-        	room = room == null ? 'OM1360' : room;
+        	room = room == null ? 'AE151' : room;
         }
         var JSLink = "http://takip.me/CampusCompanion/LabData/" + room + ".json";
         schedule = '';
@@ -77,11 +83,13 @@
 
             $('#calendar').fullCalendar({
                 //themeSystem: 'jquery-ui',
+                
                 header: {
                     left: 'prev,next today',
                     center: 'title',
                     right: 'month,agendaWeek,agendaDay,listWeek'
                 },
+                //titleFormat: room,
                 navLinks: true, // can click day/week names to navigate views
                 nowIndicator: true,
                 editable: false,
@@ -91,11 +99,16 @@
                     var end_date = moment(calEvent.end).format('DD/MM/YYYY HH:mm');
                     alert('Course: ' + calEvent.title + '\nStart: ' + start_date + '\nEnd: ' + end_date);
                 },
-                height: 'auto',
+                //height: 'auto',
+                
+                
+
                 defaultView: 'month',
-                weekNumbers: true,
+                weekNumbers: false,
                 events: schedule
             });
+            $('#calendar').fullCalendar('option', 'height', 800);  
+            //$('#calendar').fullCalendar('option', 'aspectRatio', 1.1);  
             dropdown();
         }
 
@@ -126,20 +139,20 @@
             });
 
             // add the country dropdown to the page
-            cityDropdown.before(countryDropdown);
+            //cityDropdown.before(countryDropdown);
 
             // this function updates the city dropdown based on the selected country
             function updateCities() {
                 var country = countryDropdown.find(':selected');
                 cityDropdown.empty().append(country.data('cities'));
-                console.log(country[0].innerHTML);
+                //console.log(country[0].innerHTML);
             }
 
             function updateRoom() {
                 var room = cityDropdown.find(':selected')[0].innerHTML ;
-                console.log(room);
+                //console.log(room);
                 $.getScript("http://takip.me/CampusCompanion/LabData/" + room + ".json", function(){
-                	console.log(schedule);
+                	//console.log(schedule);
                 	$('#calendar').fullCalendar( 'removeEvents');
 					$('#calendar').fullCalendar( 'addEventSource', schedule );
                 });
@@ -152,10 +165,10 @@
 
             // and add the change handler
             countryDropdown.on('change', updateCities);
+            countryDropdown.on('change', updateRoom);
             cityDropdown.on('click', updateRoom);
         }
     </script>
-
 
 
 
@@ -198,19 +211,13 @@
             </div>
         </nav>
         <br>
-
+        
         <select id="rooms">
 
-            <optgroup label="AE">
+            <optgroup label="indivLabs">
                 <option>AE151</option>
                 <option>AE361</option>
-            </optgroup>
-
-            <optgroup label="IB">
                 <option>IB2006</option>
-            </optgroup>
-
-            <optgroup label="OM">
                 <option>OM1325</option>
                 <option>OM1327</option>
                 <option>OM1330</option>
@@ -220,19 +227,24 @@
                 <option>OM1350</option>
                 <option>OM1355</option>
                 <option>OM1360</option>
-            </optgroup>
-            
-            <optgroup label="S">
                 <option>S232</option>
-            </optgroup>
-            
-            <optgroup label="TT">
                 <option>TT253</option>
                 <option>TT254</option>
                 <option>TT255</option>
             </optgroup>
+
             
         </select>
+
+        <div id = 'roomNum' style="text-align:center; font-weight: bold; font-size: 4em">AE151</div>
+
+        <script>
+            
+                $("#rooms").change(function(){
+                    $("#roomNum").text($("#rooms").val());
+                });
+            </script>
+        
                 <ul id='calendar'>
     </body>
 </html>
