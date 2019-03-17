@@ -1,0 +1,704 @@
+{
+    "prof": [
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "madam@tru.ca",
+            "name": "ADAM, MARK",
+            "phone": "1-250-828-5257",
+            "office": "OM3793B"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "canaere@tru.ca",
+            "name": "ANAERE, CHARLES",
+            "phone": "1-250-377-6157",
+            "office": "OM3755"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "randerson@tru.ca",
+            "name": "ANDERSON, ROB",
+            "phone": "1-250-371-5506",
+            "office": "IB2014"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "randrokovich@tru.ca",
+            "name": "ANDROKOVICH, ROBERT",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "sbarragan@tru.ca",
+            "name": "BARRAGAN, SALVADOR",
+            "phone": "1-250-371-5591",
+            "office": "IB2010"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "kbauman@tru.ca",
+            "name": "BAUMAN, KAI",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "tbell@tru.ca",
+            "name": "BELL, TONY",
+            "phone": "1-250-377-6092",
+            "office": "OM3791"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "thbrooks@tru.ca",
+            "name": "BROOKS, THERESA",
+            "phone": "1-250-371-5878",
+            "office": "OM1273"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "fcaputo@tru.ca",
+            "name": "CAPUTO, FRANK",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "ncarson@tru.ca",
+            "name": "CARSON, NANCY",
+            "phone": "1-250-377-6059",
+            "office": "IB2050"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "kcook@tru.ca",
+            "name": "COOK, KERRY",
+            "phone": "1-250-392-8146",
+            "office": "2011"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "pclark@tru.ca",
+            "name": "CLARK, PAUL",
+            "phone": "1-250-852-7130",
+            "office": "OM3785"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "lcooper@tru.ca",
+            "name": "COOPER, LORI",
+            "phone": "1-250-852-7151",
+            "office": "IB2074D"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "ecorea@tru.ca",
+            "name": "COREA, ELAINE",
+            "phone": "1-250-371-5867",
+            "office": "IB2078"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "rcox@tru.ca",
+            "name": "COX, RAYMOND",
+            "phone": "1-250-852-6387",
+            "office": "IB2031A"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "rcurrie@tru.ca",
+            "name": "CURRIE, RUSSELL",
+            "phone": "1-250-852-6332",
+            "office": "IB2039"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "cdallaire@tru.ca",
+            "name": "DALLAIRE, CATHERINE",
+            "phone": "1-250-377-6195",
+            "office": "IB2083"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "pdalley@tru.ca",
+            "name": "DALLEY, PETER",
+            "phone": "1-250-371-5770",
+            "office": "OM3763"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "idesjardins@tru.ca",
+            "name": "DESJARDINS, IVAN",
+            "phone": "1-250-828-5233",
+            "office": "IB2012"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "rdever@tru.ca",
+            "name": "DEVER, RHONDA",
+            "phone": "1-250-371-5507",
+            "office": "IB2062"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "hdewan@tru.ca",
+            "name": "DEWAN, HASNAT",
+            "phone": "1-250-371-5986",
+            "office": "IB2043"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "mdubord@tru.ca",
+            "name": "DUBORD, MARC",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "aduff@tru.ca",
+            "name": "DUFF, ANGUS",
+            "phone": "1-250-371-5903",
+            "office": "IB2011"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "tfedotova@tru.ca",
+            "name": "FEDOTOVA, TATIANA",
+            "phone": "1-250-828-5211",
+            "office": "IB2055A"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "afergus@tru.ca",
+            "name": "FERGUS, ANDREW",
+            "phone": "1-250-377-6015",
+            "office": "IB2037"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "afrymire@tru.ca",
+            "name": "FRYMIRE, ALANA",
+            "phone": "1-250-852-7296",
+            "office": "IB2082"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "jgaisford@tru.ca",
+            "name": "GAISFORD, JAMES",
+            "phone": "1-250-852-7665",
+            "office": "IB2001"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "mgarfield@tru.ca",
+            "name": "GARFIELD, MARIE",
+            "phone": "1-250-371-5803",
+            "office": "IB2074"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "sgeleta@tru.ca",
+            "name": "GELETA, SOLOMON",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "agill@tru.ca",
+            "name": "GILL, AVNINDER",
+            "phone": "1-250-828-5155",
+            "office": "IB2017"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "hgnoato@tru.ca",
+            "name": "GNOATO,HEATHER",
+            "phone": "1-250-371-5864",
+            "office": "IB2078"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "agray@tru.ca",
+            "name": "GRAY, ADINA",
+            "phone": "1-250-828-5490",
+            "office": "OM3757"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "kgrigoleit@tru.ca",
+            "name": "GRIGOLEIT, KAREN",
+            "phone": "1-250-377-6054",
+            "office": "IB2081"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "fhakemzadeh@tru.ca",
+            "name": "HAKEM ZADEH, FARIMAH",
+            "phone": "1-250-371-5756",
+            "office": "IB2009"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "mhaverila@tru.ca",
+            "name": "HAVERILA, MATTI",
+            "phone": "1-250-828-5373",
+            "office": "OM3785"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "mihenry@tru.ca",
+            "name": "HENRY, MICHAEL",
+            "phone": "1-250-852-6290",
+            "office": "IB2033"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "khewins@tru.ca",
+            "name": "HEWINS, KEVIN",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "bhossain@tru.ca",
+            "name": "HOSSAIN, BELAYET",
+            "phone": "1-250-377-6058",
+            "office": "IB2020"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "dhughes@tru.ca",
+            "name": "HUGHES, DAVID",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "aidzikowski@tru.ca",
+            "name": "IDZIKOWSKI, ANDREW",
+            "phone": "1-250-371-5904",
+            "office": "OM3777"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "wjap@tru.ca",
+            "name": "JAP, WARVENI",
+            "phone": "1-250-377-6039",
+            "office": "IB2048"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "ykang@tru.ca",
+            "name": "KANG, YONG",
+            "phone": "1-250-828-5398",
+            "office": "IB2074D"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "skeivanpour@tru.ca",
+            "name": "KEIVANPOUR, SAMIRA",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "jekent@tru.ca",
+            "name": "KENT, JEFF",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "bkhan@tru.ca",
+            "name": "KHAN, BILAL",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "skimiagari@tru.ca",
+            "name": "KIMIAGARI, SALMAN",
+            "phone": "1-250-852-7842",
+            "office": "IB2023"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "rkimmel@tru.ca",
+            "name": "KIMMEL, RANDALL",
+            "phone": "1-250-852-7664",
+            "office": "IB2015"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "dking@tru.ca",
+            "name": "KING, DENISE",
+            "phone": "1-250-828-5232",
+            "office": "IB2004B"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "bkirkey@tru.ca",
+            "name": "KIRKEY, BERNIE",
+            "phone": "1-250-828-5377",
+            "office": "OM3775"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "llake@tru.ca",
+            "name": "LAKE, LISA",
+            "phone": "1-250-852-6266",
+            "office": "IB2025"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "llamb@tru.ca",
+            "name": "LAMB, LAURA",
+            "phone": "1-250-852-6277",
+            "office": "IB2024"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "elatif@tru.ca",
+            "name": "LATIF, EHSAN",
+            "phone": "1-250-377-6026",
+            "office": "IB2052"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "slee@tru.ca",
+            "name": "LEE, SHELLEY",
+            "phone": "1-250-852-7635",
+            "office": "IB2074C"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "clevis@tru.ca",
+            "name": "LEVIS, CHARLENE",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "elien@tru.ca",
+            "name": "LIEN, ERIC",
+            "phone": "1-250-377-6149",
+            "office": "IB2035"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "mmahbobi@tru.ca",
+            "name": "MAHBOBI, MOHAMMAD",
+            "phone": "1-250-377-6145",
+            "office": "IB2047"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "amartin@tru.ca",
+            "name": "MARTIN, ANGELA",
+            "phone": "1-250-371-5763",
+            "office": "IB2003"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "brmartin@tru.ca",
+            "name": "MARTIN, BRUCE",
+            "phone": "1-250-371-5868",
+            "office": "IB2007"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "amckimmie@tru.ca",
+            "name": "MCKIMMIE, ALEXIS",
+            "phone": "1-250-371-5694",
+            "office": "IB2055B"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "pmckimmon@tru.ca",
+            "name": "MCKIMMON, PEGGY",
+            "phone": "1-778-471-8384",
+            "office": "OM3787"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "stanmiles@tru.ca",
+            "name": "MILES, STAN",
+            "phone": "1-250-371-5876",
+            "office": "IB2045"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "hmilovick@tru.ca",
+            "name": "MILOVICK, HEIDI",
+            "phone": "1-250-852-7297",
+            "office": "IB2077"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "mmohiuddin@tru.ca",
+            "name": "MOHIUDDIN, MUHAMMAD",
+            "phone": "1-250-828-5237",
+            "office": "IB2034"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "cmorris@tru.ca",
+            "name": "MORRIS, CATHY",
+            "phone": "1-250-828-5060",
+            "office": "IB2074"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "knaslund@tru.ca",
+            "name": "NASLUND, KIRTI",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "ang@tru.ca",
+            "name": "NG, ALEX",
+            "phone": "1-250-852-6397",
+            "office": "IB2053"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "jnoskova@tru.ca",
+            "name": "NOSKOVA, JANA",
+            "phone": "1-778-471-8467",
+            "office": "OM1275"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "jofee@tru.ca",
+            "name": "O'FEE, JOHN",
+            "phone": "1-250-371-5560",
+            "office": "OM3773"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "coleary@tru.ca",
+            "name": "O'LEARY, COLIN",
+            "phone": "1-778-471-8391",
+            "office": "IB2061"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "rokawa@tru.ca",
+            "name": "OKAWA, RIEN",
+            "phone": "1-250-371-5684",
+            "office": "IB2084"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "cortizmoya@tru.ca",
+            "name": "ORTIZ-MOYA,CESAR",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "parvin@tru.ca",
+            "name": "PARVIN, SYEDA",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "dpyne@tru.ca",
+            "name": "PYNE, DEREK",
+            "phone": "1-250-852-7289",
+            "office": "IB2041"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "hrahman@tru.ca",
+            "name": "RAHMAN, HAFIZ",
+            "phone": "1-250-371-5755",
+            "office": "IB2040"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "zraja@tru.ca",
+            "name": "RAJA,ZUBAIR",
+            "phone": "1-250-828-5447",
+            "office": "OM3793"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "srankin@tru.ca",
+            "name": "RANKIN, SCOTT",
+            "phone": "1-778-471-8466",
+            "office": "IB2049"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "mreed@tru.ca",
+            "name": "REED, MELANIE",
+            "phone": "1-250-852-7675",
+            "office": "IB2042"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "rscorgie@tru.ca",
+            "name": "SCORGIE, RYAN",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "zseldon@tru.ca",
+            "name": "SELDON, ZENA",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "dsell@tru.ca",
+            "name": "SELL, DEBBIE",
+            "phone": "1-250-371-5785",
+            "office": "OM3757"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "jshang@tru.ca",
+            "name": "SHANG, JINGZH(JOYCE)",
+            "phone": "1-778-471-8465",
+            "office": "IB2036"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "anusharma@tru.ca",
+            "name": "SHARMA, ANUPREET",
+            "phone": "1-250-371-5846",
+            "office": "IB2032"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "wsingular@tru.ca",
+            "name": "SINGULAR, WAYNE",
+            "phone": "1-250-377-6176",
+            "office": "OM3779"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "dsloat@tru.ca",
+            "name": "SLOAT, DEBRA",
+            "phone": "1-250-828-5231",
+            "office": "OM3761"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "nsouthin@tru.ca",
+            "name": "SOUTHIN, NANCY",
+            "phone": "1-250-828-5055",
+            "office": "IB2013"
+        },
+        {
+            "dept": "APPLIED BUSINESS TECHNOLOGY",
+            "email": "wstory@tru.ca",
+            "name": "STORY, WANDA",
+            "phone": "1-250-371-5877",
+            "office": "OM1273"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "msun@tru.ca",
+            "name": "SUN, MENG",
+            "phone": "1-250-828-5422",
+            "office": "OM3791A"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "ctener@tru.ca",
+            "name": "TENER, CHARMAINE",
+            "phone": "1-250-371-5912",
+            "office": "OM3761"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "brthomas@tru.ca",
+            "name": "THOMAS, BRITTANY",
+            "phone": "1-250-371-5579",
+            "office": "IB2074B"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "dthompson@tru.ca",
+            "name": "THOMPSON, DAN",
+            "phone": "1-250-828-5078",
+            "office": "IB2022"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "ptsigaris@tru.ca",
+            "name": "TSIGARIS, PETER",
+            "phone": "1-250-371-5732",
+            "office": "IB2005"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "atucker@tru.ca",
+            "name": "TUCKER, AMY",
+            "phone": "1-250-852-6855",
+            "office": "OM3763"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "hvadalkar@tru.ca",
+            "name": "VADALKAR, HARRY",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "svandyk@tru.ca",
+            "name": "VAN DYK, SHEENA",
+            "phone": "1-250-371-5785",
+            "office": "OM3757"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "jviskovich@tru.ca",
+            "name": "VISKOVICH, JULIO",
+            "phone": "1-250-852-6356",
+            "office": "OM3793A"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "bwarren@tru.ca",
+            "name": "WARREN, BERNIE",
+            "phone": "1-250-371-5936",
+            "office": "IB2016"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "wwatters@tru.ca",
+            "name": "WATTERS, WENDY",
+            "phone": "1-250-828-5148",
+            "office": "IB2074A"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "awegner@tru.ca",
+            "name": "WEGNER,ALISON",
+            "phone": "1-250-828-5222",
+            "office": "IB2021"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "jwood@tru.ca",
+            "name": "WOOD, JOEL",
+            "phone": "1-250-371-5583",
+            "office": "IB2008"
+        },
+        {
+            "dept": "SCHOOL OF BUSINESS AND ECONOMICS",
+            "email": "lizhang@tru.ca",
+            "name": "ZHANG, LI",
+            "phone": "1-250-371-5612",
+            "office": "IB2018"
+        }
+    ]
+}

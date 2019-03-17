@@ -1,0 +1,186 @@
+{
+    "prof": [
+        {
+            "dept": "ENGLISH",
+            "email": "ccadre@tru.ca",
+            "name": "CADRE, CARA",
+            "phone": "1-250-371-5951",
+            "office": "AE233"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "ldaneliuk@tru.ca",
+            "name": "DANELIUK, LYNDA",
+            "phone": "1-250-828-5057",
+            "office": "AE377"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "adominik@tru.ca",
+            "name": "DOMINIK, ANNETTE",
+            "phone": "1-250-828-5253",
+            "office": "AE229"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "jduerden@tru.ca",
+            "name": "DUERDEN, JAN",
+            "phone": "1-250-371-5975",
+            "office": "AE295"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "jfischer@tru.ca",
+            "name": "FISCHER, JOSEY",
+            "phone": "1-250-371-5768",
+            "office": "AE168A"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "rfredrickson@tru.ca",
+            "name": "FREDRICKSON, REBECCA",
+            "phone": "1-250-392-8043",
+            "office": "WL1015"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "khofmann@tru.ca",
+            "name": "HOFMANN, KAREN",
+            "phone": "1-250-377-6016",
+            "office": "AE345"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "gjohnson@tru.ca",
+            "name": "JOHNSON, GEORGE",
+            "phone": "1-250-371-5556",
+            "office": "AE181"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "njohnson@tru.ca",
+            "name": "JOHNSON, NINA",
+            "phone": "1-250-828-5280",
+            "office": "AE223"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "",
+            "name": "JONES, STEVE",
+            "phone": "1-250-371-5976",
+            "office": "AE197"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "dlaird@tru.ca",
+            "name": "LAIRD, DARRELL",
+            "phone": "1-250-371-5554",
+            "office": "AE297"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "glater@tru.ca",
+            "name": "LATER, GENEVIEVE",
+            "phone": "1-250-828-5349",
+            "office": "AE187"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "claville@tru.ca",
+            "name": "LAVILLE, CLAIRE",
+            "phone": "1-250-828-5259",
+            "office": "AE371"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "lematthews@tru.ca",
+            "name": "MATTHEWS, LEIGH",
+            "phone": "1-250-377-6172",
+            "office": "AE133"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "",
+            "name": "MOD. LANG. COORD.",
+            "phone": "1-250-828-5253",
+            "office": "AE229"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "adominik@tru.ca",
+            "name": "MODERN LANGUAGES",
+            "phone": "1-250-828-5253",
+            "office": "AE229"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "pmurphy@tru.ca",
+            "name": "MURPHY, PETER",
+            "phone": "1-250-828-5260",
+            "office": "AE189"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "mnicholson@tru.ca",
+            "name": "NICHOLSON, MERVYN",
+            "phone": "1-250-828-5255",
+            "office": "AE375"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "npawliuk@tru.ca",
+            "name": "PAWLIUK, NICK",
+            "phone": "1-250-371-5567",
+            "office": "AE168C"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "gratsoy@tru.ca",
+            "name": "RATSOY, GINNY",
+            "phone": "1-250-828-5238",
+            "office": "AE351"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "breid@tru.ca",
+            "name": "REID, BRITTANY",
+            "phone": "1-250-828-5209",
+            "office": "AE293"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "ereimer@tru.ca",
+            "name": "REIMER, ELIZABETH",
+            "phone": "1-250-371-5948",
+            "office": "AE183"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "mrey-bilbey@tru.ca",
+            "name": "REY-BILBEY, M-C",
+            "phone": "1-250-371-5588",
+            "office": "AE225"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "uscheck@tru.ca",
+            "name": "SCHECK, ULRICH",
+            "phone": "1-250-828-5168",
+            "office": "AE391"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "aswing@tru.ca",
+            "name": "SWING, ANITA",
+            "phone": "1-250-371-5589",
+            "office": "AE133"
+        },
+        {
+            "dept": "ENGLISH",
+            "email": "yzhang@tru.ca",
+            "name": "ZHANG, YAYING",
+            "phone": "1-250-377-6078",
+            "office": "AE321"
+        }
+    ]
+}
