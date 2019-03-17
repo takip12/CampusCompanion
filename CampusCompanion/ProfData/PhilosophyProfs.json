@@ -1,0 +1,88 @@
+{
+    "prof": [
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "bbaugh@tru.ca",
+            "name": "BAUGH, BRUCE",
+            "phone": "1-250-371-5581",
+            "office": "AE337"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "wbell@tru.ca",
+            "name": "BELL, WILSON",
+            "phone": "1-250-828-5229",
+            "office": "AE323"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "tblock@tru.ca",
+            "name": "BLOCK, TINA",
+            "phone": "1-250-828-5329",
+            "office": "AE347"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "dcook@tru.ca",
+            "name": "COOK, DEREK",
+            "phone": "1-250-828-5244",
+            "office": "AE291"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "tfitzjohn@tru.ca",
+            "name": "FITZJOHN, TIM",
+            "phone": "1-250-828-5206",
+            "office": "AE205"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "mgorman@tru.ca",
+            "name": "GORMAN, MICHAEL",
+            "phone": "1-250-828-5399",
+            "office": "AE325"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "rhanlon@tru.ca",
+            "name": "HANLON, ROBERT",
+            "phone": "1-250-371-5527",
+            "office": "AE333"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "tkading@tru.ca",
+            "name": "KADING, TERRY",
+            "phone": "1-250-371-5523",
+            "office": "AE331"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "jmclaughlin@tru.ca",
+            "name": "MCLAUGHLIN, JEFF",
+            "phone": "1-250-371-5734",
+            "office": "AE335"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "tpennylight@tru.ca",
+            "name": "PENNY LIGHT, TRACY",
+            "phone": "1-250-828-5348",
+            "office": "AE268B"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "astjohn@tru.ca",
+            "name": "ST. JOHN, ANNE",
+            "phone": "1-250-377-6024",
+            "office": "AE339"
+        },
+        {
+            "dept": "PHILOSOPHY, HISTORY, AND POLITICS",
+            "email": "rtapley@tru.ca",
+            "name": "TAPLEY, ROBIN",
+            "phone": "1-250-828-5495",
+            "office": "AE341"
+        }
+    ]
+}

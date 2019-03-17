@@ -1,0 +1,81 @@
+{
+    "prof": [
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "",
+            "name": "CHAMBERS, TARA",
+            "phone": "1-250-828-5374",
+            "office": "AE377"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "cgonzalez@tru.ca",
+            "name": "GONZALEZ, CLAUDIA",
+            "phone": "1-250-371-5558",
+            "office": "AE193"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "jkampman@tru.ca",
+            "name": "KAMPMAN, JACQUELINE",
+            "phone": "1-250-828-5234",
+            "office": "AE131"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "jkarl@tru.ca",
+            "name": "KARL, JENNI",
+            "phone": "1-250-371-5928",
+            "office": "AE191"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "sknorr@tru.ca",
+            "name": "KNORR, SELINA",
+            "phone": "1-250-828-5172",
+            "office": "AE142"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "gkolaric@tru.ca",
+            "name": "KOLARIC, GISELLE",
+            "phone": "1-250-371-5549",
+            "office": "AE127"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "cmontoya@tru.ca",
+            "name": "MONTOYA, CHRIS",
+            "phone": "1-250-371-5913",
+            "office": "AE168B"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "cortner@tru.ca",
+            "name": "ORTNER, CATHERINE",
+            "phone": "1-250-828-5497",
+            "office": "AE173"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "hprice@tru.ca",
+            "name": "PRICE, HEATHER",
+            "phone": "1-250-377-6044",
+            "office": "AE268A"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "dweisgerber@tru.ca",
+            "name": "WEISGERBER, DENISE",
+            "phone": "1-250-371-5518",
+            "office": "AE179"
+        },
+        {
+            "dept": "PSYCHOLOGY",
+            "email": "mwoloszyn@tru.ca",
+            "name": "WOLOSZYN, MICHAEL",
+            "phone": "1-250-377-6148",
+            "office": "AE175"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "prof": [
+        {
+            "dept": "GEOGRAPHY",
+            "email": "dcarlyle@tru.ca",
+            "name": "CARLYLE-MOSES, DARRYL",
+            "phone": "1-250-828-5235",
+            "office": "AE389"
+        },
+        {
+            "dept": "GEOGRAPHY",
+            "email": "dhill@tru.ca",
+            "name": "HILL, DAVID",
+            "phone": "1-250-828-5099",
+            "office": "AE195"
+        },
+        {
+            "dept": "GEOGRAPHY",
+            "email": "chuscroft@tru.ca",
+            "name": "HUSCROFT, CRYSTAL",
+            "phone": "1-250-377-6132",
+            "office": "AE185"
+        },
+        {
+            "dept": "GEOGRAPHY",
+            "email": "tmacdonald@tru.ca",
+            "name": "MACDONALD, TERRY",
+            "phone": "1-250-377-6080",
+            "office": "AE205"
+        },
+        {
+            "dept": "GEOGRAPHY",
+            "email": "mmehta@tru.ca",
+            "name": "MEHTA, MICHAEL",
+            "phone": "1-250-852-7275",
+            "office": "AE141"
+        },
+        {
+            "dept": "GEOGRAPHY",
+            "email": "knaqvi@tru.ca",
+            "name": "NAQVI, KIM",
+            "phone": "1-250-371-5742",
+            "office": "AE145"
+        },
+        {
+            "dept": "GEOGRAPHY",
+            "email": "gviaud@tru.ca",
+            "name": "VIAUD, GILLES",
+            "phone": "1-250-828-5239",
+            "office": "AE139"
+        },
+        {
+            "dept": "GEOGRAPHY",
+            "email": "twaldichuk@tru.ca",
+            "name": "WALDICHUK, TOM",
+            "phone": "1-250-371-5718",
+            "office": "AE135"
+        },
+        {
+            "dept": "GEOGRAPHY",
+            "email": "",
+            "name": "WEATHER STATION",
+            "phone": "2119",
+            "office": ""
+        }
+    ]
+}

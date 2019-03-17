@@ -1,116 +1,116 @@
 {
     "prof": [
         {
-            "name": "Abdullah, Mohd",
-            "dept": "Computing",
-            "office": "HL410",
-            "phone": "250-371-5961",
-            "email": "mohda@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "mohda@tru.ca",
+            "name": "ABDULLAH, MOHD",
+            "phone": "1-250-371-5961",
+            "office": "HL410"
         },
         {
-            "name": "Ahmed, Faheem",
-            "dept": "Computing",
-            "office": "OM2841",
-            "phone": "250-371-5696",
-            "email": "fahmed@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "fahmed@tru.ca",
+            "name": "AHMED, FAHEEM",
+            "phone": "1-250-371-5696",
+            "office": "OM2841"
         },
         {
-            "name": "Babinchuk, Wayne",
-            "dept": "Computing",
-            "office": "HL418",
-            "phone": "250-828-5077",
-            "email": "babinchuk@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "babinchuk@tru.ca",
+            "name": "BABINCHUK, WAYNE",
+            "phone": "1-250-828-5077",
+            "office": "HL418"
         },
         {
-            "name": "Dhanjal, Surinder",
-            "dept": "Computing",
-            "office": "S170",
-            "phone": "250-828-5153",
-            "email": "sdhanjal@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "sdhanjal@tru.ca",
+            "name": "DHANJAL, SURINDER",
+            "phone": "1-250-828-5153",
+            "office": "S170"
         },
         {
-            "name": "El Miligi, Haytham",
-            "dept": "Computing",
-            "office": "HL426",
-            "phone": "250-828-5230",
-            "email": "helmiligi@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "helmiligi@tru.ca",
+            "name": "EL MILIGI, HAYTHAM",
+            "phone": "1-250-828-5230",
+            "office": "HL426"
         },
         {
-            "name": "Jackson, Piper",
-            "dept": "Computing",
-            "office": "HL408",
-            "phone": "250-377-6098",
-            "email": "pjackson@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "pjackson@tru.ca",
+            "name": "JACKSON, PIPER",
+            "phone": "1-250-377-6098",
+            "office": "HL408"
         },
         {
-            "name": "Jin, Lingling",
-            "dept": "Computing",
-            "office": "OM2861",
-            "phone": "250-371-5804",
-            "email": "ljin@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "ljin@tru.ca",
+            "name": "JIN, LINGLING",
+            "phone": "1-250-371-5804",
+            "office": "OM2861"
         },
         {
-            "name": "King, Rick",
-            "dept": "Computing",
-            "office": "HL422",
-            "phone": "250-377-6089",
-            "email": "rking@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "rking@tru.ca",
+            "name": "KING, RICK",
+            "phone": "1-250-377-6089",
+            "office": "HL422"
         },
         {
-            "name": "Kwiatkowska, Mila",
-            "dept": "Computing",
-            "office": "HL406",
-            "phone": "250-371-5592",
-            "email": "mkwiatkowska@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "mkwiatkowska@tru.ca",
+            "name": "KWIATKOWSKA, MILA",
+            "phone": "1-250-371-5592",
+            "office": "HL406"
         },
         {
-            "name": "Lee, Mahnhoon",
-            "dept": "Computing",
-            "office": "HL424",
-            "phone": "250-377-6022",
-            "email": "mlee@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "mlee@tru.ca",
+            "name": "LEE, MAHNHOON",
+            "phone": "1-250-377-6022",
+            "office": "HL424"
         },
         {
-            "name": "Lu, Ning",
-            "dept": "Computing",
-            "office": "HL407",
-            "phone": "250-828-5224",
-            "email": "nlu@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "nlu@tru.ca",
+            "name": "LU, NING",
+            "phone": "1-250-828-5224",
+            "office": "HL407"
         },
         {
-            "name": "O'Neil, Kevin",
-            "dept": "Computing",
-            "office": "HL428",
-            "phone": "250-371-5789",
-            "email": "koneil@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "koneil@tru.ca",
+            "name": "O'NEIL, KEVIN",
+            "phone": "1-250-371-5789",
+            "office": "HL428"
         },
         {
-            "name": "Park, Andrew",
-            "dept": "Computing",
-            "office": "HL420",
-            "phone": "250-828-5053",
-            "email": "apark@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "apark@tru.ca",
+            "name": "PARK, ANDREW",
+            "phone": "1-250-828-5053",
+            "office": "HL420"
         },
         {
-            "name": "Rahman, Musfiq",
-            "dept": "Computing",
-            "office": "HL416",
-            "phone": "250-371-5957",
-            "email": "mrahman@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "mrahman@tru.ca",
+            "name": "RAHMAN, MUSFIQ",
+            "phone": "1-250-371-5957",
+            "office": "HL416"
         },
         {
-            "name": "Saeed, Rifat",
-            "dept": "Computing",
-            "office": "OM2801",
-            "phone": "250-377-6120",
-            "email": "rsaeed@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "rsaeed@tru.ca",
+            "name": "SAEED, RIFAT",
+            "phone": "1-250-377-6120",
+            "office": "OM2801"
         },
         {
-            "name": "Sharma, Mridula",
-            "dept": "Computing",
-            "office": "HL407",
-            "phone": "250-852-7149",
-            "email": "msharma@tru.ca"
+            "dept": "COMPUTING SCIENCE",
+            "email": "msharma@tru.ca",
+            "name": "SHARMA, MRIDULA",
+            "phone": "1-250-852-7149",
+            "office": "HL407"
         }
     ]
 }

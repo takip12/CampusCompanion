@@ -1,0 +1,718 @@
+{
+    "prof": [
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "dacreman@tru.ca",
+            "name": "ACREMAN, DENNIS",
+            "phone": "1-250-828-5169",
+            "office": "HL452"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "ALNA",
+            "phone": "1-778-471-8383",
+            "office": "S272"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "landerson@tru.ca",
+            "name": "ANDERSON, LUCILLE",
+            "phone": "1-250-828-5297",
+            "office": "S146"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "APPLIED SCIENCE",
+            "phone": "1-250-828-5404",
+            "office": "S238"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "",
+            "name": "ASSISTANT, NAT.RES.",
+            "phone": "1-250-828-5467",
+            "office": "S212"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "",
+            "name": "ASST TO SCIENCE DEAN",
+            "phone": "1-250-828-5400",
+            "office": "S212"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "ASTRONOMY",
+            "phone": "1-250-828-5409",
+            "office": "S206"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "lybaldwin@tru.ca",
+            "name": "BALDWIN, LYN",
+            "phone": "1-250-377-6167",
+            "office": "S248"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "shbennett@tru.ca",
+            "name": "BENNETT, SHERRY",
+            "phone": "1-250-828-5467",
+            "office": "S212"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "dbickley@tru.ca",
+            "name": "BICKLEY, DOUG",
+            "phone": "1-250-828-5455",
+            "office": "S262B"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "",
+            "name": "BIOLOGY LAB",
+            "phone": "1-250-828-5429",
+            "office": "S360B"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "",
+            "name": "BIOLOGY PROJECTS LAB",
+            "phone": "1-250-828-5487",
+            "office": "S372A"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "",
+            "name": "BIOLOGY(IN HALL)",
+            "phone": "1-250-828-5429",
+            "office": "S362"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "bissonnette@tru.ca",
+            "name": "BISSONNETTE, DAN",
+            "phone": "1-250-828-5416",
+            "office": "S252"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "ebottos@tru.ca",
+            "name": "BOTTOS, ERIC",
+            "phone": "1-250-371-5892",
+            "office": "S114"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "sbrewer@tru.ca",
+            "name": "BREWER, SHARON",
+            "phone": "1-250-371-5548",
+            "office": "S244"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "pbroad@tru.ca",
+            "name": "BROAD, P.J.",
+            "phone": "1-250-371-5550",
+            "office": "S134"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "",
+            "name": "CEID LAB 1",
+            "phone": "1-250-371-5741",
+            "office": "DNSTRS CTR"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "schaput@tru.ca",
+            "name": "CHAPUT, STEPHANIE",
+            "phone": "1-250-852-6897",
+            "office": "S322"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "ncheeptham@tru.ca",
+            "name": "CHEEPTHAM, NAOWARAT",
+            "phone": "1-250-371-5891",
+            "office": "S354"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "CHEMISTRY LAB",
+            "phone": "1-250-852-7270",
+            "office": "S267C"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "CHEMISTRY LAB",
+            "phone": "1-250-828-5415",
+            "office": "S267"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "jchurch@tru.ca",
+            "name": "CHURCH, JOHN",
+            "phone": "1-250-828-5150",
+            "office": "HSE6717"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "bcinel@tru.ca",
+            "name": "CINEL, BRUNO",
+            "phone": "1-250-371-5969",
+            "office": "S256"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "CONF-LINE, S270",
+            "phone": "1-250-852-7969",
+            "office": "S270"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "tcrowe@tru.ca",
+            "name": "CROWE, TIMOTHY",
+            "phone": "1-250-377-6013",
+            "office": "S170"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "",
+            "name": "DEAN - SCIENCE",
+            "phone": "1-250-852-7137",
+            "office": "S210"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "mdesrosiers@tru.ca",
+            "name": "DESROSIERS, MARCY",
+            "phone": "1-250-828-5050",
+            "office": "HL450 "
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "kdevlin@tru.ca",
+            "name": "DEVLIN, KAREN",
+            "phone": "1-250-828-5454",
+            "office": "S212"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "tdickinson@tru.ca",
+            "name": "DICKINSON, TOM",
+            "phone": "1-250-852-7137",
+            "office": "S210"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "kdonkor@tru.ca",
+            "name": "DONKOR, KINGSLEY",
+            "phone": "1-250-828-5406",
+            "office": "S246"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "kdonkor@tru.ca",
+            "name": "DONKOR, KINGSLEY",
+            "phone": "1-250-371-5963",
+            "office": "S172"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "wejaz@tru.ca",
+            "name": "EJAZ,WALEED",
+            "phone": "1-250-828-5101",
+            "office": "OM2821"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "EUREKA SCI CAMP 1",
+            "phone": "1-250-371-5534",
+            "office": "S230A"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "",
+            "name": "FAX SC. BUILDING(828-",
+            "phone": "1-250-828-5450",
+            "office": "S212"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "dferguson@tru.ca",
+            "name": "FERGUSON, DONALD",
+            "phone": "1-250-371-5545",
+            "office": "S348"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "nflood@tru.ca",
+            "name": "FLOOD, NANCY",
+            "phone": "1-250-828-5436",
+            "office": "S130"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "nfortier@tru.ca",
+            "name": "FORTIER, NORMAND",
+            "phone": "1-250-828-5404",
+            "office": "S238"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "lfraser@tru.ca",
+            "name": "FRASER, LAUCHLAN",
+            "phone": "1-250-377-6135",
+            "office": "RC201"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "wgardner@tru.ca",
+            "name": "GARDNER, WENDY",
+            "phone": "1-250-371-5570",
+            "office": "RC205"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "GEOLOGY LAB",
+            "phone": "1-250-371-5637",
+            "office": "S231A"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "lgosselin@tru.ca",
+            "name": "GOSSELIN, LOUIS",
+            "phone": "1-250-828-5423",
+            "office": "RC203"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "pgrand@tru.ca",
+            "name": "GRAND, PAUL",
+            "phone": "1-250-828-5407",
+            "office": "S217"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "",
+            "name": "H. GARDEN TOURS",
+            "phone": "1-250-828-5426",
+            "office": ""
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "thammer@tru.ca",
+            "name": "HAMMER, TRENT",
+            "phone": "1-250-828-5449",
+            "office": "S217"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "bheise@tru.ca",
+            "name": "HEISE, BRIAN",
+            "phone": "1-250-371-5530",
+            "office": "S320"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "rhiggins@tru.ca",
+            "name": "HIGGINS, ROB",
+            "phone": "1-250-828-5452",
+            "office": "S316"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "lhupman@tru.ca",
+            "name": "HUPMAN, LORAIN",
+            "phone": "1-250-371-5637",
+            "office": "S231A"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "hhuttunen@tru.ca",
+            "name": "HUTTUNEN-HENNELLY, H",
+            "phone": "1-250-377-6063",
+            "office": "S258"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "sjoly@tru.ca",
+            "name": "JOLY, STEVE",
+            "phone": "1-250-371-5572",
+            "office": "S207"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "jkarakat@tru.ca",
+            "name": "KARAKATSOULIS, JOHN",
+            "phone": "1-250-828-5462",
+            "office": "S205"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "klarsen@tru.ca",
+            "name": "LARSEN, KARL",
+            "phone": "1-250-828-5456",
+            "office": "HSE6724"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "mlettinga@tru.ca",
+            "name": "LETTINGA, MARTEN",
+            "phone": "1-250-828-5219",
+            "office": "S242"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "mackay@tru.ca",
+            "name": "MACKAY, MAIRI",
+            "phone": "1-250-828-5463",
+            "office": "S318"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "MAGNETIC RES. office",
+            "phone": "1-250-828-5464",
+            "office": "S263"
+        },
+        {
+            "dept": "RESEARCH",
+            "email": "amahboob@tru.ca",
+            "name": "MAHBOOB, ABDULLAH",
+            "phone": "1-250-371-5741",
+            "office": "RC105"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "",
+            "name": "MICROBIOLOGY LAB",
+            "phone": "1-250-828-5430",
+            "office": "S365B"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "cmohr@tru.ca",
+            "name": "MOHR, CHRISTINA",
+            "phone": "1-250-828-5415",
+            "office": "S118"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "nmora@tru.ca",
+            "name": "MORA-DIEZ, NELAINE",
+            "phone": "1-250-828-5442",
+            "office": "S254"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "dnelson@tru.ca",
+            "name": "NELSON, DON",
+            "phone": "1-250-828-5425",
+            "office": "S346"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "doaten@tru.ca",
+            "name": "OATEN, DUSTIN",
+            "phone": "1-250-377-6031",
+            "office": "S170"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "OBSERVATORY",
+            "phone": "1-250-377-6194",
+            "office": "IB4001"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "jomajali@tru.ca",
+            "name": "OMAJALI, JACOB",
+            "phone": "1-250-371-5893",
+            "office": "S170"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "mpaetkau@tru.ca",
+            "name": "PAETKAU, MARK",
+            "phone": "1-250-828-5453",
+            "office": "S219"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "cpetersen@tru.ca",
+            "name": "PETERSEN, CHRISTINE",
+            "phone": "1-250-371-5746",
+            "office": "S142"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "PHYS. RESEARCH RM",
+            "phone": "1-250-852-7132",
+            "office": "S274"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "dpick@tru.ca",
+            "name": "PICK, DANA",
+            "phone": "1-250-377-6068",
+            "office": "HSE6718"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "gponuwei@tru.ca",
+            "name": "PONUWEI, GODWIN",
+            "phone": "1-250-392-8130",
+            "office": "WL2028"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "dpouw@tru.ca",
+            "name": "POUW, DAVE",
+            "phone": "1-250-852-7272",
+            "office": "S262A"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "dprema@tru.ca",
+            "name": "PREMA, DIPESH",
+            "phone": "1-250-828-5419",
+            "office": "S104"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "gpreziosi@tru.ca",
+            "name": "PREZIOSI, GOLDIE",
+            "phone": "1-250-828-5400",
+            "office": "S212"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "spurdy@tru.ca",
+            "name": "PURDY, SUSAN",
+            "phone": "1-250-828-5166",
+            "office": "S132"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "tpypker@tru.ca",
+            "name": "PYPKER, TOM",
+            "phone": "1-250-828-5414",
+            "office": "S223"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "mrakobowchuk@tru.ca",
+            "name": "RAKOBOWCHUK, MARK",
+            "phone": "1-250-371-5544",
+            "office": "S328"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "nreed@tru.ca",
+            "name": "REED, NORMAN",
+            "phone": "1-250-828-5451",
+            "office": "S342"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "",
+            "name": "RESEARCH AREA",
+            "phone": "1-250-371-5938",
+            "office": "S363"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "",
+            "name": "RESEARCH LAB S265",
+            "phone": "1-250-377-6029",
+            "office": "S265"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "",
+            "name": "RESEARCH, OM2822",
+            "phone": "1-250-852-7199",
+            "office": "OM2822"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "mreudink@tru.ca",
+            "name": "REUDINK, MATTHEW",
+            "phone": "1-250-828-5428",
+            "office": "S350"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "kross@tru.ca",
+            "name": "ROSS, KAREN",
+            "phone": "1-250-371-5535",
+            "office": "S110"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "jrosvick@tru.ca",
+            "name": "ROSVICK, JOANNE",
+            "phone": "1-250-828-5409",
+            "office": "S206"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "",
+            "name": "SCIENCE  GREENHOUSE",
+            "phone": "1-250-377-6160",
+            "office": "S401"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "",
+            "name": "SCIENCE ADMIN. ASSIS.",
+            "phone": "1-250-371-5747",
+            "office": "S208"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "",
+            "name": "SECRETARY, BIO.CHEM.",
+            "phone": "1-250-828-5454",
+            "office": "S212"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "",
+            "name": "SECRETARY, COMP. SCI.",
+            "phone": "1-250-828-5050",
+            "office": "HL450 "
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "msonnenfeld@tru.ca",
+            "name": "SONNENFELD, MARG",
+            "phone": "1-250-828-5427",
+            "office": "S170"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "jsorensen@tru.ca",
+            "name": "SORENSEN, JACQUELINE",
+            "phone": "1-250-377-6014",
+            "office": "S138"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "",
+            "name": "STREAM ECOLOGY LAB",
+            "phone": "1-250-377-6068",
+            "office": "DNSTRS"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "aswanson@tru.ca",
+            "name": "SWANSON, ADAM",
+            "phone": "1-250-828-5371",
+            "office": "HL450 "
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "stabaei@tru.ca",
+            "name": "TABAEI, SEYED",
+            "phone": "1-250-377-6043",
+            "office": "S170"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "ctaylor@tru.ca",
+            "name": "TAYLOR, COLIN",
+            "phone": "1-250-371-5989",
+            "office": "S219"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "etsui@tru.ca",
+            "name": "TSUI, ERNEST",
+            "phone": "1-250-828-5408",
+            "office": "S250"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "jurban@tru.ca",
+            "name": "URBAN, JOANNA",
+            "phone": "1-250-371-5542",
+            "office": "S352"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "jvanhamme@tru.ca",
+            "name": "VAN HAMME, JONATHAN",
+            "phone": "1-250-377-6064",
+            "office": "S240"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "nvanwagoner@tru.ca",
+            "name": "VAN WAGONER, NANCY",
+            "phone": "1-250-852-7686",
+            "office": "OM2832"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "cvickers@tru.ca",
+            "name": "VICKERS, CHELSEA",
+            "phone": "1-250-371-5587",
+            "office": "S114"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "vwale@tru.ca",
+            "name": "WALE, VERLINDA",
+            "phone": "1-250-371-5747",
+            "office": "S208"
+        },
+        {
+            "dept": "NATURAL RESOURCE SCIENCE",
+            "email": "swatson@tru.ca",
+            "name": "WATSON, SHERI",
+            "phone": "1-250-828-5460",
+            "office": "S150"
+        },
+        {
+            "dept": "SCIENCE DIVISION",
+            "email": "",
+            "name": "WELLS GRAY ED & RES.",
+            "phone": "1-250-674-2155",
+            "office": ""
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "gweremczuk@tru.ca",
+            "name": "WEREMCZUK, GEORGE",
+            "phone": "1-250-828-5448",
+            "office": "S221"
+        },
+        {
+            "dept": "BIOLOGICAL SCIENCES",
+            "email": "dwilliams@tru.ca",
+            "name": "WILLIAMS, DAVE",
+            "phone": "1-250-828-5426",
+            "office": "HSE1027B"
+        },
+        {
+            "dept": "PHYSICAL SCIENCES AND ENGINEERING",
+            "email": "kwong@tru.ca",
+            "name": "WONG, KIN",
+            "phone": "1-250-377-6065",
+            "office": "S106"
+        }
+    ]
+}

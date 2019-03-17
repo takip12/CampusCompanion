@@ -1,0 +1,179 @@
+{
+    "prof": [
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "bbates@tru.ca",
+            "name": "BATES, BRAD",
+            "phone": "1-250-371-5648",
+            "office": "OM2611"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "dboucher@tru.ca",
+            "name": "BOUCHER, DEVON",
+            "phone": "1-250-371-5682",
+            "office": "OM2615"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "bbouthillier@tru.ca",
+            "name": "BOUTHILLIER, BRIAN",
+            "phone": "1-250-371-5899",
+            "office": "OM2764"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "jbrown@tru.ca",
+            "name": "BROWN, JASON",
+            "phone": "1-250-377-6040",
+            "office": "OM2831"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "achurch@tru.ca",
+            "name": "CHURCH, ALEX",
+            "phone": "1-250-371-5683",
+            "office": "OM2754"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "jdobson@tru.ca",
+            "name": "DOBSON, JOE",
+            "phone": "1-250-371-5642",
+            "office": "OM2479"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "",
+            "name": "E.S.L.",
+            "phone": "1-250-371-5728",
+            "office": "OM2485"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "sfawkes@tru.ca",
+            "name": "FAWKES, SUSANNA",
+            "phone": "1-250-371-5930",
+            "office": "OM2455"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "tfedorak@tru.ca",
+            "name": "FEDORAK, TERESSA",
+            "phone": "1-250-371-5639",
+            "office": "OM2613"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "ogonokhova@tru.ca",
+            "name": "GONOKHOVA, OLGA",
+            "phone": "1-250-828-5378",
+            "office": "OM2532"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "mhanna@tru.ca",
+            "name": "HANNA, MARG",
+            "phone": "1-250-371-5728",
+            "office": "OM2465"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "dhenderson@tru.ca",
+            "name": "HENDERSON, DIAN",
+            "phone": "1-250-371-5571",
+            "office": "OM2871"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "dhenderson@tru.ca",
+            "name": "HENDERSON, DIAN",
+            "phone": "1-250-371-5835",
+            "office": "OM2459"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "jhu@tru.ca",
+            "name": "HU, JIM",
+            "phone": "1-250-828-5190",
+            "office": "OM2851"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "dhuber@tru.ca",
+            "name": "HUBER, DEBORAH",
+            "phone": "1-250-371-5599",
+            "office": "OM2842"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "wkrauza@tru.ca",
+            "name": "KRAUZA, WENDY",
+            "phone": "1-250-371-5687",
+            "office": "OM2617"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "rlangdon@tru.ca",
+            "name": "LANGDON, ROY",
+            "phone": "1-250-371-5638",
+            "office": "OM2532"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "xliu@tru.ca",
+            "name": "LIU, XUELIN",
+            "phone": "1-250-371-5929",
+            "office": "OM2695"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "jmassalski@tru.ca",
+            "name": "MASSALSKI, JACK",
+            "phone": "1-250-377-6244",
+            "office": "OM2495"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "epappas@tru.ca",
+            "name": "PAPPAS, EVANGELITSA",
+            "phone": "1-250-377-6183",
+            "office": "OM1832"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "msansome@tru.ca",
+            "name": "SANSOME, MICHAEL",
+            "phone": "1-250-371-5594",
+            "office": "OM2481"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "",
+            "name": "SECRETARY, ESL",
+            "phone": "1-250-371-5728",
+            "office": "OM2465"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "jsteiger@tru.ca",
+            "name": "STEIGER, JANE",
+            "phone": "1-250-371-5662",
+            "office": "OM2485"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "mstewart@tru.ca",
+            "name": "STEWART, MARSHA",
+            "phone": "1-250-377-6248",
+            "office": "OM2532"
+        },
+        {
+            "dept": "ENGLISH AS A SECOND LANGUAGE",
+            "email": "jturner@tru.ca",
+            "name": "TURNER, JOHN",
+            "phone": "1-250-371-5831",
+            "office": "OM2776"
+        }
+    ]
+}

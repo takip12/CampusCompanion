@@ -1,0 +1,179 @@
+{
+    "prof": [
+        {
+            "dept": "MEDIA SERVICES",
+            "email": "bookings@tru.ca",
+            "name": "A/V BOOKINGS",
+            "phone": "1-250-828-5070",
+            "office": "OM1218"
+        },
+        {
+            "dept": "MEDIA SERVICES",
+            "email": "bookings@tru.ca",
+            "name": "A/V EQUIP. BOOKINGS",
+            "phone": "1-250-828-5070",
+            "office": "OM1218"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "tatkins@tru.ca",
+            "name": "ATKINS, TERRYL",
+            "phone": "1-250-377-6060",
+            "office": "OM2762"
+        },
+        {
+            "dept": "MEDIA SERVICES",
+            "email": "bookings@tru.ca",
+            "name": "AUDIO VISUAL EQ.BOOK",
+            "phone": "1-250-828-5070",
+            "office": "OM1218"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "lbennett@tru.ca",
+            "name": "BENNETT, LLOYD",
+            "phone": "1-250-828-5480",
+            "office": "OM1523B"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "tbijok@tru.ca",
+            "name": "BIJOK, TOMAS",
+            "phone": "1-250-371-5737",
+            "office": "OM2788"
+        },
+        {
+            "dept": "MEDIA SERVICES",
+            "email": "bookings@tru.ca",
+            "name": "BOOKINGS, A/V EQUIP.",
+            "phone": "1-250-828-5070",
+            "office": "OM1218"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "abrandoli@tru.ca",
+            "name": "BRANDOLI, ALAN",
+            "phone": "1-250-828-5489",
+            "office": "OM1549"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "lbucknell@tru.ca",
+            "name": "BUCKNELL, LEA",
+            "phone": "1-250-828-5491",
+            "office": "OM1521"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "dbuis@tru.ca",
+            "name": "BUIS, DOUG",
+            "phone": "1-250-828-5481",
+            "office": "OM1545"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "icrawford@tru.ca",
+            "name": "CRAWFORD, ILA",
+            "phone": "1-250-371-5706",
+            "office": "OM1801"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "weccleston@tru.ca",
+            "name": "ECCLESTON, WESLEY",
+            "phone": "1-250-828-5020",
+            "office": "OM2596"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "",
+            "name": "FINE ARTS",
+            "phone": "1-250-828-5480",
+            "office": "OM1523B"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "dkalynka@tru.ca",
+            "name": "KALYNKA, DARLENE",
+            "phone": "1-250-828-5482",
+            "office": "OM1543"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "ekroeger@tru.ca",
+            "name": "KROEGER, ERNIE",
+            "phone": "1-250-371-5964",
+            "office": "OM1872"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "donlawrence@tru.ca",
+            "name": "LAWRENCE, DONALD",
+            "phone": "1-250-828-5189",
+            "office": "OM1553"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "eleier@tru.ca",
+            "name": "LEIER, EILEEN",
+            "phone": "1-250-828-5485",
+            "office": "OM1551"
+        },
+        {
+            "dept": "MEDIA SERVICES",
+            "email": "bookings@tru.ca",
+            "name": "MEDIA SERVICE SUPPORT",
+            "phone": "1-250-828-5070",
+            "office": "OM1218"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "rnichol@tru.ca",
+            "name": "NICHOL, ROBIN",
+            "phone": "1-250-377-6136",
+            "office": "OM2598"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "",
+            "name": "THEATRE ARTS CO-ORD.",
+            "phone": "1-250-828-5216",
+            "office": "OM2597"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "",
+            "name": "THEATRE BOX OFFICE",
+            "phone": "1-250-377-6100",
+            "office": "OM91020"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "hverwey@tru.ca",
+            "name": "VERWEY, HEIDI",
+            "phone": "1-250-828-5216",
+            "office": "OM2597"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "",
+            "name": "VISUAL & PERFORM/ART",
+            "phone": "1-250-828-5480",
+            "office": "OM1523B"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "",
+            "name": "VISUAL ARTS",
+            "phone": "1-250-828-5480",
+            "office": "OM1523B"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "cvutev@tru.ca",
+            "name": "VUTEV, CVETOZAR",
+            "phone": "1-250-371-5737",
+            "office": "OM2788"
+        }
+    ]
+}

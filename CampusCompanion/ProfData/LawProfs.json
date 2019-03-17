@@ -1,0 +1,312 @@
+{
+    "prof": [
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "rchambers@tru.ca",
+            "name": "CHAMBERS, ROBERT",
+            "phone": "1-778-471-8438",
+            "office": "OM4767"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "tdagne@tru.ca",
+            "name": "DAGNE, TESHAGER",
+            "phone": "1-778-471-8368",
+            "office": "OM4747"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "DEAN - LAW",
+            "phone": "1-250-852-7267",
+            "office": "OM4623"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "rdhand@tru.ca",
+            "name": "DHAND, RUBY",
+            "phone": "1-778-471-8457",
+            "office": "OM4773"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "rdiab@tru.ca",
+            "name": "DIAB, ROBERT",
+            "phone": "1-778-471-8361",
+            "office": "OM4621"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "sdonlan@tru.ca",
+            "name": "DONLAN, SE\u00c1N",
+            "phone": "1-778-471-8369",
+            "office": "OM4643"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "aegeland@tru.ca",
+            "name": "EGELAND, ALISON",
+            "phone": "1-778-471-8437",
+            "office": "OM4647"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "FAX - FACULTY OF LAW",
+            "phone": "1-250-852-7641",
+            "office": "OM4639"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "rgauthier@tru.ca",
+            "name": "GAUTHIER, RYAN",
+            "phone": "1-778-471-8459",
+            "office": "OM4749"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "mdunkley@tru.ca",
+            "name": "GAYE DUNKLEY, MAXINE",
+            "phone": "1-778-471-8460",
+            "office": "OM4613"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "mahall@tru.ca",
+            "name": "HALL, MARGARET",
+            "phone": "1-250-852-7697",
+            "office": "OM4763"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "mhemmings@tru.ca",
+            "name": "HEMMINGS, MARY",
+            "phone": "1-250-828-5111",
+            "office": "OM3661"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "chunt@tru.ca",
+            "name": "HUNT, CHRISTOPHER",
+            "phone": "1-778-471-8359",
+            "office": "OM4769"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "cjones@tru.ca",
+            "name": "JONES, CRAIG",
+            "phone": "1-250-852-7695",
+            "office": "OM4779"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "ckamphuis@tru.ca",
+            "name": "KAMPHUIS, CHARIS",
+            "phone": "1-778-471-8433",
+            "office": "OM4743"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "akazanowski@tru.ca",
+            "name": "KAZANOWSKI, ALEXIS",
+            "phone": "1-250-852-7268",
+            "office": "OM4645"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "sklaric@tru.ca",
+            "name": "KLARIC, STEFANI",
+            "phone": "1-250-852-7690",
+            "office": "OM4613"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "LAW ADMIN ASSISTANT",
+            "phone": "1-778-471-8437",
+            "office": "OM4647"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "LAW ADMISSIONS",
+            "phone": "1-250-852-7847",
+            "office": "OM4657B"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "LAW LIBRARIAN",
+            "phone": "1-250-828-5111",
+            "office": "OM3661"
+        },
+        {
+            "dept": "UNIVERSITY LIBRARY",
+            "email": "",
+            "name": "LAW LIBRARY",
+            "phone": "1-778-471-8451",
+            "office": "OM3641"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "LAW MAIN BOARD office",
+            "phone": "1-250-371-5968",
+            "office": "OM4625"
+        },
+        {
+            "dept": "VISUAL AND PERFORMING ARTS",
+            "email": "donlawrence@tru.ca",
+            "name": "LAWRENCE, DONALD",
+            "phone": "1-250-828-5189",
+            "office": "OM1553"
+        },
+        {
+            "dept": "REGISTRAR",
+            "email": "hlawson@tru.ca",
+            "name": "LAWSON, HEIDI",
+            "phone": "1-250-852-6436",
+            "office": "OL321"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "bmajor@tru.ca",
+            "name": "MAJOR, BLAIR",
+            "phone": "1-250-852-7836",
+            "office": "OM4659"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "smarsden@tru.ca",
+            "name": "MARSDEN, SARAH",
+            "phone": "1-778-471-8370",
+            "office": "OM4619"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "emckee@tru.ca",
+            "name": "MCKEE, ERIN",
+            "phone": "1-250-852-7699",
+            "office": "OM4659"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "jmeyers@tru.ca",
+            "name": "MEYERS, JEFFREY",
+            "phone": "1-778-471-8449",
+            "office": "OM4753"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "bmorse@tru.ca",
+            "name": "MORSE, BRADFORD",
+            "phone": "1-250-852-7267",
+            "office": "OM4623"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "OM4731 MEETING office",
+            "phone": "1-250-852-7640",
+            "office": "OM4731"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "roppong@tru.ca",
+            "name": "OPPONG, RICHARD",
+            "phone": "1-250-852-7696",
+            "office": "OM4777"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "apilliar@tru.ca",
+            "name": "PILLIAR, ANDREW",
+            "phone": "1-778-471-8432",
+            "office": "OM4745"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "pbsc@tru.ca",
+            "name": "PRO BONO STUDENTS",
+            "phone": "1-778-471-8448",
+            "office": "OM4661"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "jpromislow@tru.ca",
+            "name": "PROMISLOW, JANNA",
+            "phone": "1-250-852-7692",
+            "office": "OM4765"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "jrossworn@tru.ca",
+            "name": "ROSSWORN, JAYNE",
+            "phone": "1-250-852-7693",
+            "office": "OM4617"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "nschabus@tru.ca",
+            "name": "SCHABUS, NICOLE",
+            "phone": "1-778-471-8360",
+            "office": "OM4771"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "ssinger@tru.ca",
+            "name": "SINGER, SAMUEL",
+            "phone": "1-778-471-8431",
+            "office": "OM4747"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "csykes@tru.ca",
+            "name": "SYKES, KATIE",
+            "phone": "1-778-471-8430",
+            "office": "OM4775"
+        },
+        {
+            "dept": "PROGRAM DELIVERY - OPEN LEARNING",
+            "email": "ltakeuchi@tru.ca",
+            "name": "TAKEUCHI, LAWRENCE",
+            "phone": "1-250-852-7789",
+            "office": ""
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "ttorchia@tru.ca",
+            "name": "TORCHIA, TERESA",
+            "phone": "1-778-471-8358",
+            "office": "OM4651"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "TRU FACULTY OF LAW",
+            "phone": "1-778-471-8450",
+            "office": "OM4735"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "TRU FACULTY OF LAW",
+            "phone": "1-778-471-8456",
+            "office": "OM4733"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "",
+            "name": "TRU FACULTY OF LAW",
+            "phone": "1-778-471-8458",
+            "office": "OM4783"
+        },
+        {
+            "dept": "FACULTY OF LAW",
+            "email": "lwalker@tru.ca",
+            "name": "WALKER, LEANNE",
+            "phone": "1-250-852-7847",
+            "office": "OM4657B"
+        }
+    ]
+}

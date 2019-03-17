@@ -1,0 +1,172 @@
+{
+    "prof": [
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "rbrewster@tru.ca",
+          "name": "BREWSTER, RICHARD",
+          "phone": "1-250-828-5215",
+          "office": "HL434"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "",
+          "name": "CENTRE SUPPORT",
+          "phone": "1-250-852-7674",
+          "office": "HL304"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "bcrofoot@tru.ca",
+          "name": "CROFOOT, BRUCE",
+          "phone": "1-250-371-5563",
+          "office": "HL455"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "sfeldberg@tru.ca",
+          "name": "FELDBERG, SUZANNE",
+          "phone": "1-250-828-5212",
+          "office": "HL422"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "fmahmoud@tru.ca",
+          "name": "MAHMOUD, FATMA",
+          "phone": "1-250-852-7668",
+          "office": "HL437"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "ymahmoud@tru.ca",
+          "name": "MAHMOUD, YEHIA",
+          "phone": "1-250-828-5240",
+          "office": "OM2801"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "",
+          "name": "MATH & STATS CHAIR",
+          "phone": "1-250-828-5215",
+          "office": "HL434"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "",
+          "name": "MATH CENTRE",
+          "phone": "1-250-852-7674",
+          "office": "HL304"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "",
+          "name": "MATH LAB HELP LINE",
+          "phone": "1-250-852-7674",
+          "office": "HL304"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "smcguinness@tru.ca",
+          "name": "MCGUINNESS, SEAN",
+          "phone": "1-250-377-6180",
+          "office": "HL436"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "ynec@tru.ca",
+          "name": "NEC, YANA",
+          "phone": "1-250-852-7831",
+          "office": "HL448"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "fpouw@tru.ca",
+          "name": "POUW, FRANK",
+          "phone": "1-250-377-6151",
+          "office": "HL407"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "srahmati@tru.ca",
+          "name": "RAHMATI, SAEED",
+          "phone": "1-250-828-5375",
+          "office": "HL441"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "lrobinson@tru.ca",
+          "name": "ROBINSON, LESLEY",
+          "phone": "1-250-371-5707",
+          "office": "HL444"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "srollans@tru.ca",
+          "name": "ROLLANS, SHANE",
+          "phone": "1-250-828-5054",
+          "office": "HL456"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "",
+          "name": "SHAIKH, MATEEN",
+          "phone": "1-250-377-6023",
+          "office": "HL445"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "xshi@tru.ca",
+          "name": "SHI, XIAOPING",
+          "phone": "1-250-828-5226",
+          "office": "HL440"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "psmoczynski@tru.ca",
+          "name": "SMOCZYNSKI, PETER",
+          "phone": "1-250-377-6147",
+          "office": "HL439"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "jsorge@tru.ca",
+          "name": "SORGE, JOSH",
+          "phone": "1-250-852-7182",
+          "office": "HL409"
+        },
+        {
+          "dept": "ADVANCED TECHNOLOGY AND MATHEMATICS",
+          "email": "",
+          "name": "STAFF office HL 4TH",
+          "phone": "1-250-828-5379",
+          "office": "HL414"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "astefan@tru.ca",
+          "name": "STEFAN, ADRIANA",
+          "phone": "1-250-371-5848",
+          "office": "HL446"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "mtawhid@tru.ca",
+          "name": "TAWHID, MOHAMED",
+          "phone": "1-250-377-6041",
+          "office": "HL438"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "rtaylor@tru.ca",
+          "name": "TAYLOR, RICHARD",
+          "phone": "1-250-371-5987",
+          "office": "HL454"
+        },
+        {
+          "dept": "MATHEMATICS AND STATISTICS",
+          "email": "yu@tru.ca",
+          "name": "YU, ROGER",
+          "phone": "1-250-371-5552",
+          "office": "HL458"
+        }
+      ]
+}

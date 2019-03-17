@@ -1,0 +1,459 @@
+{
+    "prof": [
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "ABORIGINAL PATHWAY",
+            "phone": "1-250-828-5185",
+            "office": "G302"
+        },
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "ADMIN. ASSISTANT",
+            "phone": "1-250-828-5401",
+            "office": "S204"
+        },
+        {
+            "dept": "NURSING",
+            "email": "eandersen@tru.ca",
+            "name": "ANDERSEN, ELIZABETH",
+            "phone": "1-250-852-7161",
+            "office": "S227"
+        },
+        {
+            "dept": "NURSING",
+            "email": "reanderson@tru.ca",
+            "name": "ANDERSON, RENEE",
+            "phone": "1-250-377-6137",
+            "office": "FAN116"
+        },
+        {
+            "dept": "NURSING",
+            "email": "kbanks@tru.ca",
+            "name": "BANKS, KATHY",
+            "phone": "1-250-828-5476",
+            "office": "FAN118"
+        },
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "BELL, ARLEIGH",
+            "phone": "1-250-828-5418",
+            "office": "FAN114"
+        },
+        {
+            "dept": "NURSING",
+            "email": "dbentham@tru.ca",
+            "name": "BENTHAM, DONNA",
+            "phone": "1-250-392-8160",
+            "office": ""
+        },
+        {
+            "dept": "NURSING",
+            "email": "sblackstock@tru.ca",
+            "name": "BLACKSTOCK, SHEILA",
+            "phone": "1-250-371-5532",
+            "office": "S336"
+        },
+        {
+            "dept": "NURSING",
+            "email": "lbourquebearskin@tru.ca",
+            "name": "BOURQUE-BEARSKIN,LISA",
+            "phone": "1-250-828-5056",
+            "office": "FAN119"
+        },
+        {
+            "dept": "NURSING",
+            "email": "bbuckley@tru.ca",
+            "name": "BUCKLEY, BARBARA",
+            "phone": "1-250-377-6099",
+            "office": "FAN124"
+        },
+        {
+            "dept": "NURSING",
+            "email": "scaputo@tru.ca",
+            "name": "CAPUTO, SHARI",
+            "phone": "1-250-377-6139",
+            "office": "S140"
+        },
+        {
+            "dept": "NURSING",
+            "email": "jchardon@tru.ca",
+            "name": "CHARDON, JESSICA",
+            "phone": "1-250-371-5537",
+            "office": "FAN106"
+        },
+        {
+            "dept": "NURSING",
+            "email": "tchristianson@tru.ca",
+            "name": "CHRISTIANSON, TRACY",
+            "phone": "1-250-828-5478",
+            "office": "FAN103"
+        },
+        {
+            "dept": "NURSING",
+            "email": "jcinel@tru.ca",
+            "name": "CINEL, JULIE",
+            "phone": "1-250-371-5546",
+            "office": "S209"
+        },
+        {
+            "dept": "NURSING",
+            "email": "hcorreale@tru.ca",
+            "name": "CORREALE, HEATHER",
+            "phone": "1-250-828-5421",
+            "office": "S136"
+        },
+        {
+            "dept": "NURSING",
+            "email": "mdsouza@tru.ca",
+            "name": "D'SOUZA, MELBA",
+            "phone": "1-250-371-5539",
+            "office": "FAN105"
+        },
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "DEAN - NURSING",
+            "phone": "1-250-852-7288",
+            "office": "S200"
+        },
+        {
+            "dept": "NURSING",
+            "email": "jduchscher@tru.ca",
+            "name": "DUCHSCHER, JUDY",
+            "phone": "1-250-377-6199",
+            "office": "FAN110"
+        },
+        {
+            "dept": "NURSING",
+            "email": "lidyck@tru.ca",
+            "name": "DYCK, LISA",
+            "phone": "1-250-392-8131",
+            "office": "2025"
+        },
+        {
+            "dept": "NURSING",
+            "email": "tettinger@tru.ca",
+            "name": "ETTINGER, TARA",
+            "phone": "1-250-392-8112",
+            "office": ""
+        },
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "FAX NURSE FAN (377",
+            "phone": "1-250-377-6156",
+            "office": "FAN113"
+        },
+        {
+            "dept": "NURSING",
+            "email": "ffehr@tru.ca",
+            "name": "FEHR, FLORRIAN",
+            "phone": "1-250-377-6019",
+            "office": "S340"
+        },
+        {
+            "dept": "NURSING",
+            "email": "lford@tru.ca",
+            "name": "FORD, LAURA",
+            "phone": "1-250-377-6066",
+            "office": "S120"
+        },
+        {
+            "dept": "NURSING",
+            "email": "bofournier@tru.ca",
+            "name": "FOURNIER, BONNIE",
+            "phone": "1-250-377-6042",
+            "office": "FAN107"
+        },
+        {
+            "dept": "NURSING",
+            "email": "mfunk@tru.ca",
+            "name": "FUNK, MICHELLE",
+            "phone": "1-250-371-5994",
+            "office": "S310"
+        },
+        {
+            "dept": "NURSING",
+            "email": "dgrenier@tru.ca",
+            "name": "GRENIER, DOREEN",
+            "phone": "1-250-828-5401",
+            "office": "S204"
+        },
+        {
+            "dept": "NURSING",
+            "email": "gguerreromoreno@tru.ca",
+            "name": "GUERRERO-MORENO, GINA",
+            "phone": "1-250-377-6142",
+            "office": "S116"
+        },
+        {
+            "dept": "NURSING",
+            "email": "thoot@tru.ca",
+            "name": "HOOT, TRACY",
+            "phone": "1-250-828-5477",
+            "office": "FAN101"
+        },
+        {
+            "dept": "NURSING",
+            "email": "jjones@tru.ca",
+            "name": "JONES, JOANNE",
+            "phone": "1-250-828-5459",
+            "office": "FAN120"
+        },
+        {
+            "dept": "NURSING",
+            "email": "rkolle@tru.ca",
+            "name": "KOLLE, ROXANE",
+            "phone": "1-250-828-5405",
+            "office": "S204"
+        },
+        {
+            "dept": "NURSING",
+            "email": "slachapelle@tru.ca",
+            "name": "LACHAPELLE, SANDRA",
+            "phone": "1-250-392-8049",
+            "office": "WL2030"
+        },
+        {
+            "dept": "NURSING",
+            "email": "klussier@tru.ca",
+            "name": "LUSSIER, KRISTA",
+            "phone": "1-250-377-6198",
+            "office": "FAN121"
+        },
+        {
+            "dept": "NURSING",
+            "email": "tlyster@tru.ca",
+            "name": "LYSTER, TARA",
+            "phone": "1-250-377-6056",
+            "office": "S225"
+        },
+        {
+            "dept": "NURSING",
+            "email": "mahara@tru.ca",
+            "name": "MAHARA, STAR",
+            "phone": "1-250-828-5441",
+            "office": "S215"
+        },
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "MASON, JENNIFER",
+            "phone": "1-250-392-8182",
+            "office": "WL2029"
+        },
+        {
+            "dept": "NURSING",
+            "email": "rmccreight@tru.ca",
+            "name": "MCCREIGHT, RHONDA",
+            "phone": "1-250-392-8026",
+            "office": "2031"
+        },
+        {
+            "dept": "NURSING",
+            "email": "wmckenzie@tru.ca",
+            "name": "MCKENZIE, WENDY",
+            "phone": "1-250-377-6141",
+            "office": "S211"
+        },
+        {
+            "dept": "NURSING",
+            "email": "kmclaughlin@tru.ca",
+            "name": "MCLAUGHLIN, KIRSTIN",
+            "phone": "1-250-377-6038",
+            "office": "S148"
+        },
+        {
+            "dept": "NURSING",
+            "email": "nmirza@tru.ca",
+            "name": "MIRZA, NOEMAN",
+            "phone": "1-250-371-5536",
+            "office": "S229"
+        },
+        {
+            "dept": "NURSING",
+            "email": "kmorris@tru.ca",
+            "name": "MORRIS, KIM",
+            "phone": "1-250-371-5551",
+            "office": "FAN108"
+        },
+        {
+            "dept": "NURSING",
+            "email": "dmurnaghan@tru.ca",
+            "name": "MURNAGHAN, DONNA",
+            "phone": "1-250-852-7288",
+            "office": "S200"
+        },
+        {
+            "dept": "NURSING",
+            "email": "pnicol@tru.ca",
+            "name": "NICOL, PATRICIA",
+            "phone": "1-250-371-5578",
+            "office": "FAN122"
+        },
+        {
+            "dept": "NURSING",
+            "email": "lnordick@tru.ca",
+            "name": "NORDICK, LANETTE",
+            "phone": "1-250-852-6381",
+            "office": "FAN112"
+        },
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "NURSING LAB",
+            "phone": "1-250-828-5412",
+            "office": "S330"
+        },
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "NURSING LAB",
+            "phone": "1-250-392-8105",
+            "office": "1264"
+        },
+        {
+            "dept": "NURSING",
+            "email": "jomahony@tru.ca",
+            "name": "O'MAHONY, JOYCE",
+            "phone": "1-250-377-6138",
+            "office": "S344"
+        },
+        {
+            "dept": "NURSING",
+            "email": "cobertowich@tru.ca",
+            "name": "OBERTOWICH, CATHERINE",
+            "phone": "1-250-852-6381",
+            "office": "FAN112"
+        },
+        {
+            "dept": "NURSING",
+            "email": "cpflanz@tru.ca",
+            "name": "PFLANZ, CHERYL",
+            "phone": "1-250-392-8147",
+            "office": "WL2032"
+        },
+        {
+            "dept": "NURSING",
+            "email": "sressler@tru.ca",
+            "name": "RESSLER, SHERI",
+            "phone": "1-250-828-5457",
+            "office": "S204"
+        },
+        {
+            "dept": "NURSING",
+            "email": "stross@tru.ca",
+            "name": "ROSS, STEVE",
+            "phone": "1-250-852-7115",
+            "office": "S326"
+        },
+        {
+            "dept": "NURSING",
+            "email": "roroy@tru.ca",
+            "name": "ROY, ROB",
+            "phone": "1-250-377-6171",
+            "office": "S335A"
+        },
+        {
+            "dept": "SCHOOL OF NURSING",
+            "email": "csaj@tru.ca",
+            "name": "SAJ, CINDI",
+            "phone": "1-250-392-8178",
+            "office": "WL2017"
+        },
+        {
+            "dept": "NURSING",
+            "email": "tsanders@tru.ca",
+            "name": "SANDERS, TANYA",
+            "phone": "1-250-371-5585",
+            "office": "S122"
+        },
+        {
+            "dept": "NURSING",
+            "email": "dsanderson@tru.ca",
+            "name": "SANDERSON, DARLENE",
+            "phone": "1-250-371-5993",
+            "office": "S112"
+        },
+        {
+            "dept": "NURSING",
+            "email": "mseibel@tru.ca",
+            "name": "SEIBEL, MICHELLE",
+            "phone": "1-250-371-5834",
+            "office": "S338"
+        },
+        {
+            "dept": "NURSING",
+            "email": "",
+            "name": "SESSIONAL, FAN117",
+            "phone": "1-250-377-6169",
+            "office": "FAN117"
+        },
+        {
+            "dept": "NURSING",
+            "email": "asmith@tru.ca",
+            "name": "SMITH, AMANDA",
+            "phone": "1-250-377-6113",
+            "office": "S116"
+        },
+        {
+            "dept": "NURSING",
+            "email": "asullivan@tru.ca",
+            "name": "SULLIVAN, ANDREA",
+            "phone": "1-250-852-7159",
+            "office": "S213"
+        },
+        {
+            "dept": "NURSING",
+            "email": "mtaylor@tru.ca",
+            "name": "TAYLOR, MONA",
+            "phone": "1-250-828-5296",
+            "office": "FAN104"
+        },
+        {
+            "dept": "NURSING",
+            "email": "strawin@tru.ca",
+            "name": "TRAWIN, SANDRA",
+            "phone": "1-250-377-6062",
+            "office": "S202"
+        },
+        {
+            "dept": "NURSING",
+            "email": "jtulloch@tru.ca",
+            "name": "TULLOCH, MARIE JOYCE",
+            "phone": "1-250-852-6407",
+            "office": "OM2802"
+        },
+        {
+            "dept": "NURSING",
+            "email": "cspence@tru.ca",
+            "name": "TURNBULL-SPENCE,CATHY",
+            "phone": "1-250-377-6111",
+            "office": "S102"
+        },
+        {
+            "dept": "NURSING",
+            "email": "cawalker@tru.ca",
+            "name": "WALKER, CANDACE",
+            "phone": "1-250-828-5417",
+            "office": "S144"
+        },
+        {
+            "dept": "NURSING",
+            "email": "nwaters@tru.ca",
+            "name": "WATERS, NICOLA",
+            "phone": "1-250-377-6036",
+            "office": "S334"
+        },
+        {
+            "dept": "NURSING",
+            "email": "gzamorano@tru.ca",
+            "name": "ZAMORANO, GABRIEL",
+            "phone": "1-250-392-8188",
+            "office": "WL2032"
+        }
+    ]
+}
