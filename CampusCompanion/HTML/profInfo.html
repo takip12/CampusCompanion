@@ -26,33 +26,36 @@
 
 
 
-            
 
-            $(document).ready(function(){
-                $('#list-makers').click(function(){
+
+            $(document).ready(function () {
+                
+                
+                
+                $('#list-makers').click(function () {
                     $("#profDetails tbody").empty();
                     prog = $("option:selected").val();
-                   
-                var JSLink = "http://takip.me/CampusCompanion/ProfData/" + prog + ".json";
 
-                $.getJSON(JSLink, function (arr) {
-                $.each(arr.prof, function (i, f) {
-                    var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
-                        "<td>" + f.dept + "</td>" +
-                        "<td>" + f.office + "</td>" +
-                        "<td>" + f.phone + "</td>" +
-                        "<td>" + f.email + "</td>" + "</tr>"
-                    
-                    $(tblRow).appendTo("#profDetails tbody");
-                })
-                
-            })
+                    var JSLink = "http://takip.me/CampusCompanion/ProfData/" + prog + ".json";
+
+                    $.getJSON(JSLink, function (arr) {
+                        $.each(arr.prof, function (i, f) {
+                            var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
+                                "<td>" + f.dept + "</td>" +
+                                "<td>" + f.office + "</td>" +
+                                "<td>" + f.phone + "</td>" +
+                                "<td>" + f.email + "</td>" + "</tr>"
+
+                            $(tblRow).appendTo("#profDetails tbody");
+                        })
+
+                    })
                 });
             });
 
 
 
-            
+
         });
 
 
