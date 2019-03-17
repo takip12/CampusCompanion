@@ -1,32 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="profCSSTest.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        
-        
-        <script>
-            $(function(){
-                var profs = [];
 
-                $.getJSON('prof.json', function(arr){
-                    $.each(arr.prof, function(i, f){
-                        var tblRow = "<tr>" + "<td>" + f.name + "</td>" + 
-                                              "<td>" + f.dept + "</td>" +
-                                              "<td>" + f.office + "</td>" +
-                                              "<td>" + f.phone + "</td>" + 
-                                              "<td>" + f.email + "</td>" + "</tr>"
-                        $(tblRow).appendTo("#profDetails tbody")
-                    })
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/profCSSTest.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <script>
+        $(function () {
+            var profs = [];
+
+            var url1 = new URL(window.location.href)
+            if (typeof url1.searchParams != 'undefined') {
+                prog = url1.searchParams.get("prog");
+
+                prog = prog == null ? 'Business' : prog;
+            }
+
+
+
+
+
+
+            
+
+            $(document).ready(function(){
+                $('#list-makers').click(function(){
+                    $("#profDetails tbody").empty();
+                    prog = $("option:selected").val();
+                   
+                var JSLink = "http://takip.me/CampusCompanion/ProfData/" + prog + ".json";
+
+                $.getJSON(JSLink, function (arr) {
+                $.each(arr.prof, function (i, f) {
+                    var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
+                        "<td>" + f.dept + "</td>" +
+                        "<td>" + f.office + "</td>" +
+                        "<td>" + f.phone + "</td>" +
+                        "<td>" + f.email + "</td>" + "</tr>"
+                    
+                    $(tblRow).appendTo("#profDetails tbody");
                 })
+                
+            })
+                });
             });
-        </script>
-    
-    
+
+
+
+            
+        });
+
+
+    </script>
+
+
 
     <!--
     <script>
@@ -47,7 +79,7 @@
     </script>
 -->
 
-<!--
+    <!--
     <script>
         $("#searchterm").keyup(function(e){
             var q = $("#searchterm").val();
@@ -65,64 +97,83 @@
 
 
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <nav class="navbar navbar-expand-md navbar-light" style="background-color: #003e51;">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #003e51;">
 
-            <a class="navbar-brand" href="../home.html" style="color: white">TRU Campus Companion</a>
-            <button class="navbar-toggler" type="button" style="background-color: white;" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: #fff5de;" href="profInfo.html">Professor Information</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="lab.html">Computer Lab Information</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="software.html">Lab Software</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="amenities.html">Facilities and Amenities</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="services.html">Campus Services</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="food.html">Food and Drink</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <br>
-        <div class="container">
-            <h3>Professor Info</h3>
-            
-            
-
-            
-            <table id="profDetails" class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Professor's Name</th>
-                        <th>Department</th>
-                        <th>Office</th>
-                        <th>Phone Number</th>
-                        <th>Email</th>
-                    </tr>
-                </thead>
-                
-                <tbody>
-                    
-                </tbody>
-            
-            </table>
-        
+        <a class="navbar-brand" href="../home.html" style="color: white">TRU Campus Companion</a>
+        <button class="navbar-toggler" type="button" style="background-color: white;" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: #fff5de;" href="profInfo.html">Professor Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="lab.html">Computer Lab Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="software.html">Lab Software</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="amenities.html">Facilities and Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="services.html">Campus Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="food.html">Food and Drink</a>
+                </li>
+            </ul>
         </div>
-    </body>
-</html>
+    </nav>
+    <br>
+    <div class="container">
+        <h3>Professor Info</h3>
 
+        <select id="prog">
+            <optgroup label="depts">
+                <option>Business</option>
+                <option>Computing</option>
+                <option>English</option>
+                <option>ESL</option>
+                <option>Geography</option>
+                <option>Law</option>
+                <option>Math</option>
+                <option>Nursing</option>
+                <option>Philosophy</option>
+                <option>Psychology</option>
+                <option>Science</option>
+                <option>Visual</option>
+            </optgroup>
+        </select>
+
+        <button id='list-makers' type="button">Submit</button>
+
+
+
+        <table id="profDetails" class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Professor's Name</th>
+                    <th>Department</th>
+                    <th>Office</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+</body>
+
+</html>
