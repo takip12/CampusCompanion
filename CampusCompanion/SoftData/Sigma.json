@@ -1,0 +1,10 @@
+{
+    "rooms":[
+        {
+            "building": "SCIENCE",
+            "num": "232",
+            "locationLink": "S232",
+            "softLink": "S232"
+        }
+    ]
+}

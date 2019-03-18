@@ -1,0 +1,16 @@
+{
+    "rooms":[
+        {
+            "building": "ARTS AND EDUCATION",
+            "num": "151",
+            "locationLink": "AE151",
+            "softLink": "AE151"
+        },
+        {
+            "building": "ARTS AND EDUCATION",
+            "num": "361",
+            "locationLink": "AE361",
+            "softLink": "AE361"
+        }
+    ]
+}

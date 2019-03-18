@@ -1,0 +1,64 @@
+{
+    "rooms":[
+        {
+            "building": "INTERNATIONAL BUILDING",
+            "num": "2006",
+            "locationLink": "IB2006",
+            "softLink": "IB2006"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1325",
+            "locationLink": "OM1325",
+            "softLink": "OM1325"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1327",
+            "locationLink": "OM1327",
+            "softLink": "OM1327"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1335",
+            "locationLink": "OM1335",
+            "softLink": "OM1335"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1340",
+            "locationLink": "OM1340",
+            "softLink": "OM1340"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1345",
+            "locationLink": "OM1345",
+            "softLink": "OM1345"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1350",
+            "locationLink": "OM1350",
+            "softLink": "OM1350"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1355",
+            "locationLink": "OM1355",
+            "softLink": "OM1355"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1360",
+            "locationLink": "OM1360",
+            "softLink": "OM1360"
+        },
+        {
+            "building": "SCIENCE",
+            "num": "232",
+            "locationLink": "S232",
+            "softLink": "S232"
+        }
+    ]
+}

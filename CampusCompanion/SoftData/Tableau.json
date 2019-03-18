@@ -1,0 +1,10 @@
+{
+    "rooms":[
+        {
+            "building": "INTERNATIONAL BUILDING",
+            "num": "2006",
+            "locationLink": "IB2006",
+            "softLink": "IB2006"
+        }
+    ]
+}

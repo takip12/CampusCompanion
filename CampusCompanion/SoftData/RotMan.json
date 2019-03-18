@@ -1,0 +1,34 @@
+{
+    "rooms":[
+        {
+            "building": "INTERNATIONAL BUILDING",
+            "num": "2006",
+            "locationLink": "IB2006",
+            "softLink": "IB2006"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1335",
+            "locationLink": "OM1335",
+            "softLink": "OM1335"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1350",
+            "locationLink": "OM1350",
+            "softLink": "OM1350"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1355",
+            "locationLink": "OM1355",
+            "softLink": "OM1355"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1360",
+            "locationLink": "OM1360",
+            "softLink": "OM1360"
+        }
+    ]
+}

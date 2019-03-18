@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
 
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' />
-	    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-	    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js'></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="utf-8">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
-        <!--
+    <!--
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -28,9 +29,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         -->
-        <!--<script src="../JS/CalendarJS.js" defer></script>-->
-        
-        <!--
+    <!--<script src="../JS/CalendarJS.js" defer></script>-->
+
+    <!--
         <script>
             $(function(){
                 var om1360 = [];
@@ -49,7 +50,7 @@
 
 
 
-
+  
 
 
 
@@ -58,10 +59,10 @@
         var url1 = new URL(window.location.href)
         var room = "OM1360";
         //console.log(typeof url1.searchParams);
-        if(typeof url1.searchParams != 'undefined'){
-        	room = url1.searchParams.get("room");
-        	
-        	room = room == null ? 'AE151' : room;
+        if (typeof url1.searchParams != 'undefined') {
+            room = url1.searchParams.get("room");
+
+            room = room == null ? 'AE151' : room;
         }
         var JSLink = "http://takip.me/CampusCompanion/LabData/" + room + ".json";
         schedule = '';
@@ -71,7 +72,7 @@
         JSElement.onload = OnceLoaded;
         document.getElementsByTagName('head')[0].appendChild(JSElement);
 
-        window.addEventListener('error', function(e) {
+        window.addEventListener('error', function (e) {
             if (room == null) {
                 alert('after the url type ?room={classroom}')
                 document.getElementById('calendar').innerHTML = 'Refresh to show changes';
@@ -83,7 +84,7 @@
 
             $('#calendar').fullCalendar({
                 //themeSystem: 'jquery-ui',
-                
+
                 header: {
                     left: 'prev,next today',
                     center: 'title',
@@ -98,20 +99,20 @@
                 nowIndicator: true,
                 editable: false,
                 eventLimit: false, // allow "more" link when too many events
-                eventClick: function(calEvent, jsEvent, view) {
+                eventClick: function (calEvent, jsEvent, view) {
                     var start_date = moment(calEvent.start).format('DD/MM/YYYY HH:mm');
                     var end_date = moment(calEvent.end).format('DD/MM/YYYY HH:mm');
                     alert('Course: ' + calEvent.title + '\nStart: ' + start_date + '\nEnd: ' + end_date);
                 },
                 //height: 'auto',
-                
-                
+
+
 
                 defaultView: 'month',
                 weekNumbers: false,
                 events: schedule
             });
-            $('#calendar').fullCalendar('option', 'height', 800);  
+            $('#calendar').fullCalendar('option', 'height', 800);
             //$('#calendar').fullCalendar('option', 'aspectRatio', 1.1);  
             dropdown();
         }
@@ -122,7 +123,7 @@
                 countries = ['OM', 'AHT', 'AE', 'WL', 'CTT', 'S', 'IB', 'HOL', 'OL']; // ordered list of countries
 
             // parse the nested dropdown
-            cityDropdown.children().each(function() {
+            cityDropdown.children().each(function () {
                 var group = $(this),
                     countryName = group.attr('label'),
                     option;
@@ -153,15 +154,15 @@
             }
 
             function updateRoom() {
-                var room = cityDropdown.find(':selected')[0].innerHTML ;
+                var room = cityDropdown.find(':selected')[0].innerHTML;
                 //console.log(room);
-                $.getScript("http://takip.me/CampusCompanion/LabData/" + room + ".json", function(){
-                	//console.log(schedule);
-                	$('#calendar').fullCalendar( 'removeEvents');
-					$('#calendar').fullCalendar( 'addEventSource', schedule );
+                $.getScript("http://takip.me/CampusCompanion/LabData/" + room + ".json", function () {
+                    //console.log(schedule);
+                    $('#calendar').fullCalendar('removeEvents');
+                    $('#calendar').fullCalendar('addEventSource', schedule);
                 });
 
-			}
+            }
 
 
             // call the function to set the initial cities
@@ -181,74 +182,79 @@
 
 
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <nav class="navbar navbar-expand-md navbar-light" style="background-color: #003e51;">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #003e51;">
 
-            <a class="navbar-brand" href="home.html" style="color: white">TRU Campus Companion</a>
-            <button class="navbar-toggler" type="button" style="background-color: white;" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: white;" href="HTML/profInfo.html">Professor Information</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="HTML/lab.html">Computer Lab Information</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="HTML/software.html">Lab Software</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="HTML/amenities.html">Facilities and Amenities</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="HTML/services.html">Campus Services</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" style="color: white;" href="HTML/food.html">Food and Drink</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <br>
+        <a class="navbar-brand" href="home.html" style="color: white">TRU Campus Companion</a>
+        <button class="navbar-toggler" type="button" style="background-color: white;" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="HTML/profInfo.html">Professor Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="HTML/lab.html">Computer Lab Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="HTML/software.html">Lab Software</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="HTML/amenities.html">Facilities and Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="HTML/services.html">Campus Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: white;" href="HTML/food.html">Food and Drink</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <select id="rooms">
+
+        <optgroup label="indivLabs">
+            <option>AE151</option>
+            <option>AE361</option>
+            <option>HOL104</option>
+            <option>IB2006</option>
+            <option>OM1325</option>
+            <option>OM1327</option>
+            <option>OM1330</option>
+            <option>OM1335</option>
+            <option>OM1340</option>
+            <option>OM1345</option>
+            <option>OM1350</option>
+            <option>OM1355</option>
+            <option>OM1360</option>
+            <option>S232</option>
+            <option>TT253</option>
+            <option>TT254</option>
+            <option>TT255</option>
+        </optgroup>
+
         
-        <select id="rooms">
 
-            <optgroup label="indivLabs">
-                <option>AE151</option>
-                <option>AE361</option>
-                <option>IB2006</option>
-                <option>OM1325</option>
-                <option>OM1327</option>
-                <option>OM1330</option>
-                <option>OM1335</option>
-                <option>OM1340</option>
-                <option>OM1345</option>
-                <option>OM1350</option>
-                <option>OM1355</option>
-                <option>OM1360</option>
-                <option>S232</option>
-                <option>TT253</option>
-                <option>TT254</option>
-                <option>TT255</option>
-            </optgroup>
 
-            
-        </select>
+    </select>
 
-        <div id = 'roomNum' style="text-align:center; font-weight: bold; font-size: 4em; font-family: Courier New">AE151</div>
+    <div id='roomNum' style="text-align:center; font-weight: bold; font-size: 4em; font-family: Courier New">AE151</div>
 
-        <script>
-            
-                $("#rooms").change(function(){
-                    $("#roomNum").text($("#rooms").val());
-                });
-            </script>
-        
-                <ul id='calendar'>
-    </body>
+    <script>
+
+        $("#rooms").change(function () {
+            $("#roomNum").text($("#rooms").val());
+        });
+    </script>
+
+    <ul id='calendar'>
+</body>
+
 </html>

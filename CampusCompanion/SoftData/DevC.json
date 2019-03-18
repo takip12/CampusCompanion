@@ -1,0 +1,28 @@
+{
+    "rooms":[
+        {
+            "building": "OLD MAIN",
+            "num": "1325",
+            "locationLink": "OM1325",
+            "softLink": "OM1325"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1350",
+            "locationLink": "OM1350",
+            "softLink": "OM1350"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1355",
+            "locationLink": "OM1355",
+            "softLink": "OM1355"
+        },
+        {
+            "building": "OLD MAIN",
+            "num": "1360",
+            "locationLink": "OM1360",
+            "softLink": "OM1360"
+        }
+    ]
+}
