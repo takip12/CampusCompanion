@@ -5,6 +5,12 @@
             "num": "1325",
             "locationLink": "OM1325",
             "softLink": "OM1325"
+        },
+        {
+            "building": "HOL",
+            "num": "1212",
+            "locationLink": "OM1325",
+            "softLink": "OM1325"
         }
     ]
 }
