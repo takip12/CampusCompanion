@@ -1,0 +1,10 @@
+{
+    "rooms":[
+        {
+            "building": "OLD MAIN",
+            "num": "1325",
+            "locationLink": "OM1325",
+            "softLink": "OM1325"
+        }
+    ]
+}
