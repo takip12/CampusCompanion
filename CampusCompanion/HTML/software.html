@@ -17,8 +17,8 @@
                     var tblRow = "<tr>" +
                         "<td>" + f.building + "</td>" +
                         "<td>" + f.num + "</td>" +
-                        "<td><a href=http://.takip.me/CampusCompanion/SoftHTML/" + f.locationLink + ".html>Location</a></td>" +
-                        "<td><a href=http://.takip.me/CampusCompanion/SoftLocs/" + f.softLink + ".html>Software List</td>" + "</tr>"
+                        "<td><a href=http://.takip.me/CampusCompanion/SoftLocs/" + f.locationLink + ".html>Location</a></td>" +
+                        "<td><a href=http://.takip.me/CampusCompanion/SoftList/" + f.softLink + ".html>Software List</td>" + "</tr>"
                     $(tblRow).appendTo("#roomList tbody");
                 })
             })
@@ -28,6 +28,7 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light" style="background-color: #003e51;">
+
         <a class="navbar-brand" href="../home.html" style="color: white">TRU Campus Companion</a>
         <button class="navbar-toggler" type="button" style="background-color: white;" data-toggle="collapse"
             data-target="#collapsibleNavbar">
@@ -64,14 +65,14 @@
         <div class="btn-group">
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">A</button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Adobe Acrobat</a>
-                <a class="dropdown-item" href='../SoftPages/Cloud.html'>Adobe Dreamweaver</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Adobe Flash</a>
-                <a class="dropdown-item" href='../SoftPages/Cloud.html'>Adobe Illustrator</a>
-                <a class="dropdown-item" href='../SoftPages/Cloud.html'>Adobe InDesign</a>
-                <a class="dropdown-item" href='../SoftPages/Cloud.html'>Adobe Photoshop</a>
-                <a class="dropdown-item" href='../SoftPages/AS.html'>Android Studio</a>
-                <a class="dropdown-item" href='../SoftPages/Arc.html'>ArcView</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Adobe Acrobat</a>
+                <a class="dropdown-item" href='../SoftHTML/Cloud.html'>Adobe Dreamweaver</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Adobe Flash</a>
+                <a class="dropdown-item" href='../SoftHTML/Cloud.html'>Adobe Illustrator</a>
+                <a class="dropdown-item" href='../SoftHTML/Cloud.html'>Adobe InDesign</a>
+                <a class="dropdown-item" href='../SoftHTML/Cloud.html'>Adobe Photoshop</a>
+                <a class="dropdown-item" href='../SoftHTML/AS.html'>Android Studio</a>
+                <a class="dropdown-item" href='../SoftHTML/Arc.html'>ArcView</a>
             </div>
         </div>
 
@@ -79,14 +80,14 @@
         <div class="btn-group">
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">B-G</button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href='../SoftPages/Behave.html'>Behave</a>
-                <a class="dropdown-item" href='../SoftPages/Standard.html'>Caseware</a>
-                <a class="dropdown-item" href='../SoftPages/Chem.html'>ChemDoodle</a>
-                <a class="dropdown-item" href='../SoftPages/DevC.html'>DevC++</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Dr.Java</a>
-                <a class="dropdown-item" href='../SoftPages/Gauss.html'>GaussView</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Google Chrome</a>
-                <a class="dropdown-item" href='../SoftPages/Standard.html'>Google Earth Pro</a>
+                <a class="dropdown-item" href='../SoftHTML/Behave.html'>Behave</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Caseware</a>
+                <a class="dropdown-item" href='../SoftHTML/Chem.html'>ChemDoodle</a>
+                <a class="dropdown-item" href='../SoftHTML/DevC.html'>DevC++</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Dr.Java</a>
+                <a class="dropdown-item" href='../SoftHTML/Gauss.html'>GaussView</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Google Chrome</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Google Earth Pro</a>
             </div>
         </div>
 
@@ -94,12 +95,12 @@
         <div class="btn-group">
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">I-L</button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href='../SoftPages/Standard.html'>IBM SPSS statistics 25</a>
-                <a class="dropdown-item" href='../SoftPages/IH.html'>IH Anywhere</a>
-                <a class="dropdown-item" href='../SoftPages/Insight.html'>>Insight</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Internet Explorer</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Java</a>
-                <a class="dropdown-item" href='../SoftPages/LabStats.html'>LabStats</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>IBM SPSS statistics 25</a>
+                <a class="dropdown-item" href='../SoftHTML/IH.html'>IH Anywhere</a>
+                <a class="dropdown-item" href='../SoftHTML/Insight.html'>>Insight</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Internet Explorer</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Java</a>
+                <a class="dropdown-item" href='../SoftHTML/LabStats.html'>LabStats</a>
             </div>
         </div>
 
@@ -107,15 +108,15 @@
         <div class="btn-group">
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">M</button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href='../SoftPages/MapInfo.html'>MapInfo</a>
-                <a class="dropdown-item" href='../SoftPages/Standard.html'>Maple 2018</a>
-                <a class="dropdown-item" href='../SoftPages/MDL.html'>MDL Chime</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Microsoft Silverlight</a>
-                <a class="dropdown-item" href='../SoftPages/Standard.html'>Microsoft Visual Studio 2015 pro</a>
-                <a class="dropdown-item" href='../SoftPages/Standard.html'>Minitab 18.1</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Mozilla Firefox</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>MS Office Professional Plus 2016</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>MS Windows 10</a>
+                <a class="dropdown-item" href='../SoftHTML/MapInfo.html'>MapInfo</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Maple 2018</a>
+                <a class="dropdown-item" href='../SoftHTML/MDL.html'>MDL Chime</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Microsoft Silverlight</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Microsoft Visual Studio 2015 pro</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Minitab 18.1</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Mozilla Firefox</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>MS Office Professional Plus 2016</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>MS Windows 10</a>
             </div>
         </div>
 
@@ -123,11 +124,11 @@
         <div class="btn-group">
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">N-R</button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Notepad++</a>
-                <a class="dropdown-item" href='../SoftPages/SQL.html'>Oracle SQL Developer</a>
-                <a class="dropdown-item" href='../SoftPages/PD.html'>PowerDesigner</a>
-                <a class="dropdown-item" href='../SoftPages/Putty.html'>Putty</a>
-                <a class="dropdown-item" href='../SoftPages/RotMan.html'>RotMan Interactive Trader</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Notepad++</a>
+                <a class="dropdown-item" href='../SoftHTML/SQL.html'>Oracle SQL Developer</a>
+                <a class="dropdown-item" href='../SoftHTML/PD.html'>PowerDesigner</a>
+                <a class="dropdown-item" href='../SoftHTML/Putty.html'>Putty</a>
+                <a class="dropdown-item" href='../SoftHTML/RotMan.html'>RotMan Interactive Trader</a>
             </div>
         </div>
 
@@ -135,12 +136,12 @@
         <div class="btn-group">
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">S-Z</button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href='../SoftPages/Sigma.html'>Sigmaplot v13</a>
-                <a class="dropdown-item" href='../SoftPages/Simbio.html'>Simbio Virtual Labs</a>
-                <a class="dropdown-item" href='../SoftPages/Standard.html'>Simply Accounting 2018</a>
-                <a class="dropdown-item" href='../SoftPages/Base.html'>Sophos Anti-Virus</a>
-                <a class="dropdown-item" href='../SoftPages/Tableau.html'>Tableau</a>
-                <a class="dropdown-item" href='../SoftPages/WinSCP.html'>WinSCP</a>
+                <a class="dropdown-item" href='../SoftHTML/Sigma.html'>Sigmaplot v13</a>
+                <a class="dropdown-item" href='../SoftHTML/Simbio.html'>Simbio Virtual Labs</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Simply Accounting 2018</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Sophos Anti-Virus</a>
+                <a class="dropdown-item" href='../SoftHTML/Tableau.html'>Tableau</a>
+                <a class="dropdown-item" href='../SoftHTML/WinSCP.html'>WinSCP</a>
             </div>
         </div>
 
