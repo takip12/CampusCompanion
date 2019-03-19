@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--CSS and scripts-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://takip.me/CampusCompanion/CSS/base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!--Runs through JSON files associated with a room-->
+    <script>
+        $(document).ready(function () {
+            var JSLink = "http://takip.me/CampusCompanion/SoftData/Base.json";
+            $.getJSON(JSLink, function (arr) {
+                $.each(arr.rooms, function (i, f) {
+                    var tblRow = "<tr>" +
+                        "<td>" + f.building + "</td>" +
+                        "<td>" + f.num + "</td>" +
+                        "<td><a href=http://takip.me/CampusCompanion/SoftLocs/" + f.locationLink + ".png target = _blank>Location</a></td>" +
+                        "<td><a href=http://takip.me/CampusCompanion/SoftList/" + f.softLink + ".html>Software List</td>" + "</tr>"
+                    $(tblRow).appendTo("#roomList tbody");
+                })
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a id="TRU" class="navbar-brand" href="../home.html">TRU Campus Companion</a>
+        <button id="button" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul id="navBar" class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="profInfo.html">Professor Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lab.html">Computer Lab Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="software.html">Lab Software</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="amenities.html">Facilities and Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Campus Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="food.html">Food and Drink</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <h3>Base Software Info</h3>
+
+        <!--List of Programs (A)-->
+        <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">A</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Adobe Acrobat</a>
+                <a class="dropdown-item" href='../SoftHTML/Cloud.html'>Adobe Dreamweaver</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Adobe Flash</a>
+                <a class="dropdown-item" href='../SoftHTML/Cloud.html'>Adobe Illustrator</a>
+                <a class="dropdown-item" href='../SoftHTML/Cloud.html'>Adobe InDesign</a>
+                <a class="dropdown-item" href='../SoftHTML/Cloud.html'>Adobe Photoshop</a>
+                <a class="dropdown-item" href='../SoftHTML/AS.html'>Android Studio</a>
+                <a class="dropdown-item" href='../SoftHTML/Arc.html'>ArcView</a>
+            </div>
+        </div>
+
+        <!--List of Programs (B-G)-->
+        <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">B-G</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href='../SoftHTML/Behave.html'>Behave</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Caseware</a>
+                <a class="dropdown-item" href='../SoftHTML/Chem.html'>ChemDoodle</a>
+                <a class="dropdown-item" href='../SoftHTML/DevC.html'>DevC++</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Dr.Java</a>
+                <a class="dropdown-item" href='../SoftHTML/Gauss.html'>GaussView</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Google Chrome</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Google Earth Pro</a>
+            </div>
+        </div>
+
+        <!--List of Programs (I-L)-->
+        <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">I-L</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>IBM SPSS statistics 25</a>
+                <a class="dropdown-item" href='../SoftHTML/IH.html'>IH Anywhere</a>
+                <a class="dropdown-item" href='../SoftHTML/Insight.html'>Insight</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Internet Explorer</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Java</a>
+                <a class="dropdown-item" href='../SoftHTML/LabStats.html'>LabStats</a>
+            </div>
+        </div>
+
+        <!--List of Programs (M)-->
+        <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">M</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href='../SoftHTML/MapInfo.html'>MapInfo</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Maple 2018</a>
+                <a class="dropdown-item" href='../SoftHTML/MDL.html'>MDL Chime</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Microsoft Silverlight</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Microsoft Visual Studio 2015 pro</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Minitab 18.1</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Mozilla Firefox</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>MS Office Professional Plus 2016</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>MS Windows 10</a>
+            </div>
+        </div>
+
+        <!--List of Programs (N-R)-->
+        <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">N-R</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Notepad++</a>
+                <a class="dropdown-item" href='../SoftHTML/SQL.html'>Oracle SQL Developer</a>
+                <a class="dropdown-item" href='../SoftHTML/PD.html'>PowerDesigner</a>
+                <a class="dropdown-item" href='../SoftHTML/Putty.html'>Putty</a>
+                <a class="dropdown-item" href='../SoftHTML/RotMan.html'>RotMan Interactive Trader</a>
+            </div>
+        </div>
+
+        <!--List of Programs (S-Z)-->
+        <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">S-Z</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href='../SoftHTML/Sigma.html'>Sigmaplot v13</a>
+                <a class="dropdown-item" href='../SoftHTML/Simbio.html'>Simbio Virtual Labs</a>
+                <a class="dropdown-item" href='../SoftHTML/Standard.html'>Simply Accounting 2018</a>
+                <a class="dropdown-item" href='../SoftHTML/Base.html'>Sophos Anti-Virus</a>
+                <a class="dropdown-item" href='../SoftHTML/Tableau.html'>Tableau</a>
+                <a class="dropdown-item" href='../SoftHTML/WinSCP.html'>WinSCP</a>
+            </div>
+        </div>
+
+        <!--List of Labs-->
+        <table id="roomList" class="table table-hover table-bordered" style="background-color: white">
+            <thead>
+                <tr>
+                    <th>Building</th>
+                    <th>Room Number</th>
+                    <!--<th>Lab Schedule</th>-->
+                    <th>Lab Location</th>
+                    <th>Lab Software</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="row" id="softPics" >
+            <div class="col-md-4">
+                <img class="img-responsive " src="../Images/arc.png" style="width:50%">
+                <div class="caption">
+                    test
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="../Images/devc.png" style="width:50%">
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="../Images/chem.png" style="width:50%">
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row" id="softPics" >
+            <div class="col-md-4">
+                <img class="img-responsive " src="../Images/arc.png" style="width:50%">
+                <div class="caption">
+                    test
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="../Images/devc.png" style="width:50%">
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="../Images/chem.png" style="width:50%">
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
