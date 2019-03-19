@@ -1,3 +1,19 @@
 body{
     background-color: #fff5de;
 }
+
+nav{
+    background-color: #003e51;
+}
+
+#TRU{
+    color: white;
+}
+
+#button{
+    background-color: white;
+}
+
+#navBar li a{
+    color: white;
+}
