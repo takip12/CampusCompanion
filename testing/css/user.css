@@ -1,0 +1,98 @@
+.user-outer-wrapper {
+    display: inline;
+}
+
+.user-wrapper {
+    width: 100%;
+    display: inline-flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-img-wrapper {
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline;
+    margin: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    align-self: center;
+}
+
+.user-img-wrapper > img{
+    cursor: pointer;
+    max-height: 200px;
+    max-width: 200px;
+ }
+
+ .user-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0px 10px;
+     padding: 10px;
+     justify-content: space-evenly;
+ }
+
+ .user-container > h3 {
+     margin: 10px 0px;
+ }
+
+ .error {
+     color: #ed2939;
+ }
+
+ div.error {
+    display: flex;
+    justify-content: center;
+ }
+
+ .user-content-box {
+     height: 70%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     overflow-y: auto;
+     padding: 10px;
+     min-height: 150px;
+ }
+
+ #content {
+    overflow-y: hidden;
+ }
+
+ #delete-user, #change-pass {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 40px;
+    font-size: 1.25rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.24);
+    background-color: white;
+    border:none;
+    transition: all .25s ease;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#delete-user:hover,  #delete-user:focus, #change-pass:hover, #change-pass:focus {
+    outline: none;
+    background-color: #ed2939;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.24), 0 2px 4px rgba(0,0,0,0.24);
+}
+
+.user-content-sort {
+    width: 100%;
+    height: 50px;
+    min-height: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.user-content-sort > select {
+    outline-color: #ed2939;
+    font-size: 1rem;
+}
